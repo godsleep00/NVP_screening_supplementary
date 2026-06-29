@@ -1,0 +1,724 @@
+---
+title: "数据重探索"
+date: "`r Sys.Date()`"
+author: "杨文灿"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE,
+	collapse=TRUE,
+	prompt=TRUE,
+	comment='  '
+)
+```
+
+# 黄酮类（Flavonoids）
+
+```{r include=FALSE}
+library(readxl)
+library(tidyverse)
+Flavonoids <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Flavonoids.xlsx",sheet = 1)
+Flavonoids$log10ec50 <- log10(Flavonoids$ec50)
+```
+
+## 全部变量线性回归
+
+```{r}
+library(easystats)
+model <- lm(log10ec50 ~.-ec50,data = Flavonoids)
+  summary(model)
+```
+```{r}
+y <- Flavonoids[,15] |>as.matrix()
+x <- Flavonoids[,-c(15,14)] |>
+  as.matrix()
+```
+
+```{r}
+# 预测
+predictions <- predict(model, newdata = Flavonoids)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+## 最优子集法筛选模型
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+
+```
+
+```{r}
+predictions <- predict(model_final, newdata = Flavonoids)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+## 模型诊断
+```{r}
+library(YangPac)
+ModelDiagnose(model_final)
+```
+
+## 岭回归
+
+```{r include=FALSE}
+library(broom)
+library(glmnet)
+library(tidyverse)
+```
+
+```{r include=FALSE}
+TCM_regres <- function(data){
+  data <- as.matrix(data)
+  y <- data[,15]
+  x <- data[,-c(15,14)]
+  cat("100次迭代结果")
+  ridge <- glmnet(x,y,family = "gaussian",alpha = 0)
+  return(ridge)
+}
+```
+
+
+```{r include=FALSE}
+ridge <- TCM_regres(Flavonoids) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.04,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.04,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+### 预测
+```{r}
+library(readxl)
+FLAX <- as.matrix(read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\分开种类预测.xlsx",sheet = 2))
+predictions<- predict(ridge,newx=FLAX,s=0.04,type = "response") 
+FLAX$predictions <- predictions
+
+```
+
+# 皂苷类（saponin）
+
+```{r include=FALSE}
+library(readxl)
+saponin <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\saponin.xlsx",sheet = 1)
+saponin$log10ec50 <- log10(saponin$ec50)
+```
+```{r}
+y <- saponin[,15] |>as.matrix()
+x <- saponin[,-c(15,14)] |>as.matrix()
+```
+
+## 全部指标建模
+
+多元R2值较高，调整后的R2值0.09，差距较大，P值0.5\>0.05，方程解释程度较小，拟合程度堪忧。
+
+```{r}
+model <- lm(log10ec50~.-ec50,data = saponin)
+  summary(model)
+```
+```{r}
+# 预测
+predictions <- predict(model, newdata = saponin)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+
+## 最优子集筛选
+
+减少共线性较高的预测变量
+
+```{r echo=FALSE}
+library(easystats)
+model_final <- model|>
+  select_parameters()
+summary(model_final)
+```
+```{r}
+predictions <- predict(model_final, newdata = saponin)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+
+## 岭回归
+```{r include=FALSE}
+ridge <- TCM_regres(saponin)
+ridge
+```
+
+## 绘制岭回归的残差图
+```{r}
+ridge_predictions <- predict(ridge, s = 0.06, newx = x) 
+```
+
+## 岭回归的R2值
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge_predictions-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+## 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge_predictions - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+## 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.06,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+# 生物碱(Alkaloids)
+
+
+```{r include=FALSE}
+library(readxl)
+Alkaloids <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Alkaloids.xlsx",sheet = 1)
+Alkaloids$log10ec50 <- log10(Alkaloids$ec50)
+```
+
+## 全部变量线性回归
+
+```{r}
+library(easystats)
+model <- lm(log10ec50 ~.-ec50,data = Alkaloids)
+  summary(model)
+```
+```{r}
+y <- Alkaloids[,15] |>as.matrix()
+x <- Alkaloids[,-c(15,14)] |>
+  as.matrix()
+```
+```{r}
+# 预测
+predictions <- predict(model, newdata = Alkaloids)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+
+## 最优子集法筛选模型
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+```
+```{r}
+predictions <- predict(model_final, newdata = Alkaloids)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+
+## 模型诊断
+```{r}
+library(YangPac)
+ModelDiagnose(model_final)
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Alkaloids) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.06,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.09,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+# 酚类(Phenols)
+
+```{r include=FALSE}
+library(readxl)
+Phenols <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Phenols.xlsx",sheet = 1)
+Phenols$log10ec50 <- log10(Phenols$ec50)
+```
+
+## 全部变量线性回归
+
+```{r}
+library(easystats)
+model <- lm(log10ec50 ~.-ec50,data = Phenols)
+  summary(model)
+```
+```{r}
+y <- Phenols[,15] |>as.matrix()
+x <- Phenols[,-c(15,14)] |>
+  as.matrix()
+```
+```{r}
+# 预测
+predictions <- predict(model, newdata = Phenols)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+
+## 最优子集法筛选模型
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+```
+```{r}
+predictions <- predict(model_final, newdata = Phenols)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+
+## 模型诊断
+```{r}
+ModelDiagnose(model_final)
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Phenols) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.08,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.08,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+# 萜类(Terpenes)
+
+```{r include=FALSE}
+library(readxl)
+Terpenes <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Terpenes.xlsx",sheet = 1)
+Terpenes$log10ec50 <- log10(Terpenes$ec50)
+```
+
+## 全部变量线性回归
+
+```{r}
+library(easystats)
+model <- lm(log10ec50 ~.-ec50,data = Terpenes)
+  summary(model)
+```
+```{r}
+y <- Terpenes[,15] |>as.matrix()
+x <- Terpenes[,-c(15,14)] |>
+  as.matrix()
+```
+```{r}
+# 预测
+predictions <- predict(model, newdata = Terpenes)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+
+## 最优子集法筛选模型
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+```
+```{r}
+predictions <- predict(model_final, newdata = Terpenes)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+
+## 模型诊断
+```{r}
+library(YangPac)
+ModelDiagnose(model)
+ModelDiagnose(model_final)
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Terpenes) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.08,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.08,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+# PPP
+
+```{r include=FALSE}
+library(readxl)
+PPP <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\PPP.xlsx",sheet = 1)
+PPP$log10ec50 <- log10(PPP$ec50)
+```
+
+## 全部变量线性回归
+
+```{r}
+library(easystats)
+model <- lm(log10ec50 ~.-ec50,data = PPP)
+  summary(model)
+```
+```{r}
+y <- PPP[,15] |>as.matrix()
+x <- PPP[,-c(15,14)] |>
+  as.matrix()
+```
+
+```{r}
+# 预测
+predictions <- predict(model, newdata = PPP)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("Linear Regression MSE:", mse_lm))
+print(paste("Linear Regression AIC:", AIC(model)))
+```
+
+## 最优子集法筛选模型
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+```
+```{r}
+predictions <- predict(model_final, newdata = PPP)
+ 
+# 计算MSE
+mse_lm <- mean((predictions - y)^2)
+print(paste("最优子集模型 MSE:", mse_lm))
+print(paste("最优子集模型 AIC:", AIC(model_final)))
+```
+
+## 模型诊断
+```{r}
+ModelDiagnose(model_final)
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(PPP) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.06,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.06,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+# 整合数据
+```{r message=FALSE, warning=FALSE}
+EC50 <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\ec50.xlsx",sheet = 5)
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+EC50$ec50 <- as.numeric(EC50$ec50)
+EC50$log10ec50 <- log10(EC50$ec50)
+```
+
+## 处理自变量中存在的因变量
+  将分类变量进行独热编码并与原数据合并
+```{r}
+library(caret)
+dummy_vars <- dummyVars(~ Species, data = EC50)  
+  
+# 使用predict函数和dummyVars对象来生成独热编码矩阵  
+
+dummy_data <- predict(dummy_vars, newdata = EC50) 
+dummy_EC50 <- data.frame(dummy_data,EC50[,-1])
+```
+
+## 数据分割
+
+```{r}
+library(caret)
+```
+
+```{r}
+set.seed(1232)
+trainIndex <- createDataPartition(dummy_EC50$log10ec50,times=1,p=0.8,list=FALSE,groups=min(10,length(EC50$log10ec50)))
+Train <- dummy_EC50[trainIndex,]
+Test <- dummy_EC50[-trainIndex,]
+```
+## 简单线性回归
+```{r}
+library(easystats)
+model <- lm(log10ec50~.-ec50,data = dummy_EC50)
+summary(model)
+```
+```{r}
+model_final <- model|>
+  select_parameters() 
+summary(model_final)
+```
+
+## 训练数据
+```{r}
+library(caret)
+#交叉验证
+fitControl <- trainControl(method = "repeatedcv",number = 50,repeats = 3)
+```
+
+### GBM
+  
+```{r}
+set.seed(2024.11)
+gbmfit <- train(log10ec50~.-ec50,data = Train,method = "gbm",trControl=fitControl,verbose=FALSE)
+gbmfit
+```
+
+### Random Forest
+```{r}
+library(randomForest)
+set.seed(2024)
+rffit <- train(log10ec50~.-ec50,data = Train,method = "rf",trControl=fitControl,verbose=FALSE)
+rffit
+```
+
+### SVM
+
+```{r}
+library(kernlab)
+tuneGrid1 <- expand.grid(C = 2^(-2:5), sigma = c(0.01, 0.1, 1)) 
+set.seed(2024.13)
+svmfit <- train(log10ec50~.-ec50,data = Train,method = "svmRadial",trControl=fitControl,verbose=FALSE,tuneGrid= tuneGrid1) 
+svmfit
+```
+
+## 比较几种方法的预测效果
+
+  GBM(梯度提升机)(基于决策树的集成学习算法)的核心思想是通过迭代的方式，逐步优化模型，每一步都尝试减少模型的残差误差，从而逐渐接近最优解。在每一步迭代中，GBM算法通过增加一个新的决策树来进一步优化模型，同时使用梯度下降算法来最小化残差误差。
+  SVM 支持向量机
+  RandomForest 随机森林
+  
+```{r include=FALSE}
+resample <- resamples(list(
+                       SVM=svmfit,
+                       RF = rffit,
+                       GBM=gbmfit))
+resample
+
+```
+```{r echo=FALSE}
+theme1 <- trellis.par.get()
+theme1$plot.symbol$col <- rgb(.2,.2,.2,.4)
+theme1$plot.symbol$pch <- 16
+theme1$plot.line$col <- rgb(1,0,0,.7)
+theme1$plot.line$lwd <- 2
+trellis.par.set(theme1)
+bwplot(resample,layout=c(3,1))
+```
+
+## MSE
+```{r include=FALSE}
+MSE <- function(model,Test){
+    predict <- predict(model,newdata = Test)
+    real <- Test$log10ec50
+    # 计算MSE
+    mse_lm <- mean((predict - real)^2)
+    print(paste(" MSE:", mse_lm))
+    sst <-sum((real-mean(real))^2)
+    sse <- sum((predict-real)^2)
+    rsq <-1-sse/sst
+    print(paste("R-square:", rsq))
+}
+```
+
+```{r}
+MSE(rffit,Test)
+MSE(svmfit,Test)
+MSE(gbmfit,Test)
+```
+
+## 作图展示结果
+```{r include=FALSE}
+Keshihua <- function(model,Test){
+library(reshape2)
+library(ggplot2)
+predict <- predict(model,newdata = Test)
+real <- Test$log10ec50
+Comparation <- data.frame(predictvalue = predict , realvalue = real,number = factor(c(1:nrow(Test)))) |>
+  melt(id.vars = "number")
+a <- ggplot(Comparation, aes(x=number,y = value,color = variable,group=variable))+
+  geom_point(aes(shape=variable),size=3)+
+  geom_line(lwd=1.2)+theme_classic()+
+  labs(title = "Comparation between predict value and real value")
+print(a)
+}
+```
+
+
+### RF
+```{r}
+Keshihua(rffit,Test)
+```
+
+### SVM
+```{r}
+Keshihua(svmfit,Test)
+```
+
+### GBM
+```{r}
+Keshihua(gbmfit,Test)
+```
+

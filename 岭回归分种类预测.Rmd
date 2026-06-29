@@ -1,0 +1,449 @@
+---
+title: "岭回归预测"
+date: "`r Sys.Date()`"
+author: "杨文灿"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+---
+
+# 黄酮类（Flavonoids）
+
+```{r include=FALSE}
+library(readxl)
+library(tidyverse)
+Flavonoids <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Flavonoids.xlsx",sheet = 1)
+X_scaled <- scale(Flavonoids[,1:13])
+Flavonoids[,1:13]<- scale(Flavonoids[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+Flavonoids$log10ec50 <- log10(Flavonoids$ec50)
+```
+
+```{r}
+y <- Flavonoids[,15] |>as.matrix()
+x <- Flavonoids[,1:13] |>
+  as.matrix()
+```
+
+
+## 岭回归
+
+```{r include=FALSE}
+library(broom)
+library(glmnet)
+library(tidyverse)
+```
+
+```{r include=FALSE}
+TCM_regres <- function(data){
+  data <- as.matrix(data)
+  y <- data[,15]
+  x <- data[,-c(15,14)]
+  cat("100次迭代结果")
+  ridge <- glmnet(x,y,family = "gaussian",alpha = 0)
+  return(ridge)
+}
+```
+
+
+```{r include=FALSE}
+ridge <- TCM_regres(Flavonoids) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.04,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.04,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+### 预测
+```{r}
+library(readxl)
+FLAX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 5) 
+FLAX<- scale(FLAX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(FLAX)
+predictions<- predict(ridge,newx=x,s=0.04,type = "response") 
+FLAX$predictions <- predictions |>as.vector()
+```
+
+# 皂苷类（saponin）
+
+```{r include=FALSE}
+library(readxl)
+saponin <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\saponin.xlsx",sheet = 1)
+X_scaled <- scale(saponin[,1:13])
+saponin[,1:13]<- scale(saponin[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+saponin$log10ec50 <- log10(saponin$ec50)
+```
+```{r}
+y <- saponin[,15] |>as.matrix()
+x <- saponin[,-c(15,14)] |>as.matrix()
+```
+
+## 岭回归
+```{r include=FALSE}
+ridge <- TCM_regres(saponin)
+ridge
+```
+
+## 绘制岭回归的残差图
+```{r}
+ridge_predictions <- predict(ridge, s = 0.06, newx = x) 
+```
+
+## 岭回归的R2值
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge_predictions-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+## 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge_predictions - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+## 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.06,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 预测
+```{r}
+library(readxl)
+SAPX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 2) 
+SAPX<- scale(SAPX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(SAPX)
+predictions<- predict(ridge,newx=x,s=0.06,type = "response") 
+SAPX$predictions <- predictions |>as.vector()
+head(SAPX)
+```
+```{r}
+library(openxlsx)
+write.xlsx(SAPX, "SAP.xlsx")
+```
+
+# 生物碱(Alkaloids)
+
+
+```{r include=FALSE}
+library(readxl)
+Alkaloids <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Alkaloids.xlsx",sheet = 1)
+X_scaled <- scale(Alkaloids[,1:13])
+Alkaloids[,1:13]<- scale(Alkaloids[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+Alkaloids$log10ec50 <- log10(Alkaloids$ec50)
+```
+
+
+```{r}
+y <- Alkaloids[,15] |>as.matrix()
+x <- Alkaloids[,-c(15,14)] |>
+  as.matrix()
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Alkaloids) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.09,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.09,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+### 预测
+```{r}
+library(readxl)
+ALKX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 6)  
+ALKX<- scale(ALKX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(ALKX)
+predictions<- predict(ridge,newx=x,s=0.09,type = "response") 
+ALKX$predictions <- predictions |>as.vector()
+head(ALKX)
+```
+
+# 酚类(Phenols)
+
+```{r include=FALSE}
+library(readxl)
+Phenols <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Phenols.xlsx",sheet = 1)
+X_scaled <- scale(Phenols[,1:13])
+Phenols[,1:13]<- scale(Phenols[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+Phenols$log10ec50 <- log10(Phenols$ec50)
+```
+
+```{r}
+y <- Phenols[,15] |>as.matrix()
+x <- Phenols[,-c(15,14)] |>
+  as.matrix()
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Phenols) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.08,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.08,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+### 预测
+```{r}
+library(readxl)
+PHEX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 4)  
+PHEX<- scale(PHEX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(PHEX)
+predictions<- predict(ridge,newx=x,s=0.08,type = "response") 
+PHEX$predictions <- predictions |>as.vector()
+head(PHEX)
+```
+
+# 萜类(Terpenes)
+
+```{r include=FALSE}
+library(readxl)
+Terpenes <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\Terpenes.xlsx",sheet = 1)
+X_scaled <- scale(Terpenes[,1:13])
+Terpenes[,1:13]<- scale(Terpenes[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+Terpenes$log10ec50 <- log10(Terpenes$ec50)
+```
+
+```{r}
+y <- Terpenes[,15] |>as.matrix()
+x <- Terpenes[,-c(15,14)] |>
+  as.matrix()
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(Terpenes) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.08,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.08,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+### 预测
+```{r}
+library(readxl)
+TERX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 1)  
+TERX<- scale(TERX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(TERX)
+predictions<- predict(ridge,newx=x,s=0.08,type = "response") 
+TERX$predictions <- predictions |>as.vector()
+head(TERX)
+```
+
+# PPP
+
+```{r include=FALSE}
+library(readxl)
+PPP <- read_excel("D:\\Rstudio\\Rmyfile\\Traditional Chinese Medicine\\PPP.xlsx",sheet = 1)
+X_scaled <- scale(PPP[,1:13])
+PPP[,1:13]<- scale(PPP[,1:13])
+scaled_center <- attr(X_scaled, "scaled:center")  # 保存训练数据的均值
+scaled_scale <- attr(X_scaled, "scaled:scale")    # 保存训练数据的标准差
+PPP$log10ec50 <- log10(PPP$ec50)
+```
+
+```{r}
+y <- PPP[,15] |>as.matrix()
+x <- PPP[,-c(15,14)] |>
+  as.matrix()
+```
+
+## 岭回归
+
+```{r include=FALSE}
+ridge <- TCM_regres(PPP) 
+ridge
+```
+
+### 方程各系数
+
+```{r echo=FALSE}
+ridge.coef <-predict(ridge,s=0.06,type = "coefficients") 
+ridge.coef#返回岭回归方程的各因变量的系数，s为岭系数𝜆的取值
+```
+
+### 岭回归的R2值
+
+```{r}
+ridge.y<- predict(ridge,newx=x,s=0.06,type = "response") 
+plot(ridge.y,y,xlab="Predicted",ylab = "Actual",main = "Ridge Regression")
+```
+
+```{r echo=FALSE}
+#计算岭回归R2值
+sst <-sum((y-mean(y))^2)
+sse <- sum((ridge.y-y)^2)
+rsq <-1-sse/sst
+rsq
+```
+
+### 计算均方误差(MSE)
+
+```{r}
+mse <- mean((ridge.y - y)^2)
+cat("Mean Squared Error (MSE):", mse, "\n")
+```
+
+### 预测
+```{r}
+library(readxl)
+PPPX <- read_excel("C:\\Users\\31597\\Desktop\\Traditional Chinese Medicine\\Wang TCM\\岭回归.xlsx",sheet = 3)  
+PPPX<- scale(PPPX, center = scaled_center, scale = scaled_scale) |>as.data.frame()
+x <- as.matrix(PPPX)
+predictions<- predict(ridge,newx=x,s=0.06,type = "response") 
+PPPX$predictions <- predictions |>as.vector()
+head(PPPX)
+```
+# 将数据写入文件
+
+```{r}
+library(openxlsx)
+
+# 假设 FLAX 是你的数据框
+# 创建一个新的工作簿
+wb <- createWorkbook()
+
+# 添加一个新的工作表
+addWorksheet(wb, sheetName = "FLA")
+addWorksheet(wb, sheetName = "ALK")
+addWorksheet(wb, sheetName = "PHE")
+addWorksheet(wb, sheetName = "TER")
+addWorksheet(wb, sheetName = "PPP")
+addWorksheet(wb, sheetName = "SAP")
+
+# 将数据写入指定的工作表，不保存行名
+writeData(wb, sheet = "FLA", x = FLAX, rowNames = FALSE)
+writeData(wb, sheet = "ALK", x = ALKX, rowNames = FALSE)
+writeData(wb, sheet = "PHE", x = PHEX, rowNames = FALSE)
+writeData(wb, sheet = "TER", x = TERX, rowNames = FALSE)
+writeData(wb, sheet = "PPP", x = PPPX, rowNames = FALSE)
+writeData(wb, sheet = "SAP", x = SAPX, rowNames = FALSE)
+
+
+# 保存工作簿到文件
+saveWorkbook(wb, "RidgePrediction.xlsx", overwrite = TRUE)
+```
+

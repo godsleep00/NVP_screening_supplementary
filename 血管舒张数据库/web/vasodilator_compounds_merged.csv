@@ -1,0 +1,602 @@
+﻿编号,化合物,原始名称,PubChem CID,类别,CAS,分子式,分子量,动物模型,血管类型,涉及通路,实验结果,文献来源,U46619,PE,KCL,NE
+1,1-nitro-2-phenylethene,1-nitro-2-phenylethene （CAS;7166-19-0),6508331,其他类,15241-23-3,C8H6BrNO2,228.04,Wistar大鼠,胸主动脉,Ca2+通道,非内皮依赖性,Vasorelaxant effects of 1-nitro-2-phenylethene in rat isolated aortic rings,,70.198999999999998,71,
+2,Apigenin,Apigenin(CAS:520-36-5),5280443,黄酮类,8002-66-2  520-36-5,C15H10O5,270.24,SD大鼠,肠系膜动脉,在过度表达 TRPV4 的 HEK 细胞和天然内皮细胞中，芹菜素以剂量依赖性方式激活 TRPV4 通道,在大鼠肠系膜小动脉中，芹菜素作用于内皮细胞中的 TRPV4，诱导 EDHF 介导的血管扩张。,"Ma, Xin et al. “Apigenin, a plant‐derived flavone, activates transient receptor potential vanilloid 4 cation channel.” <em>British Journal of Pharmacology</em> 166 (2012): n. pag.",,4.32,,
+3,Apigenin,Apigenin(CAS:520-36-5),5280443,黄酮类,,C15H10O5,270.24,SD大鼠,胸主动脉,NO/cGMP,非内皮依赖性,"Ko, Feng Nien et al. “Vasodilatory action mechanisms of apigenin isolated from Apium graveolens in rat thoracic aorta.” <em>Biochimica et biophysica",,,,63
+4,Apigenin,Apigenin(CAS:520-36-5),5280443,黄酮类,,C15H10O5,270.24,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,Apigenin protects endothelium-dependent relaxation of rat aorta against oxidative stress,,4.9649999999999999,,
+5,Apigenin,Apigenin(CAS:520-36-5),5280443,黄酮类,,C15H10O5,270.24,Wistar大鼠,胸主动脉,ATP、NO,非内皮依赖性,"隋海霞,支媛,刘海波,等.芹菜素舒张血管作用及其机制研究[J].卫生研究,2011,40(04):416-419+422.DOI:10.19813/j.cnki.weishengyanjiu.2011.04.001.",,4.55,,
+6,Biochanin-A,Biochanin-A (CAS:491-80-5),5280373,黄酮类,,C16H12O5,284.263,山羊,冠状动脉,Ca(v)1.2 channels,Biochanin-A 在山羊冠状动脉的内皮非依赖性通路中显示松弛,"Kumar T, Sharma M, Rana A, Lingaraju MC, Parida S, Kumar D, Singh TU. Biochanin-A elicits relaxation in coronary artery of goat through different mechanisms. Res Vet Sci. 2020 Aug;131:206-214. doi: 10.1016/j.rvsc.2020.05.003. Epub 2020 May 4. PMID: 32408231.",,,35.479999999999997,
+7,Cassiarin A,Cassiarin A（CAS：未查到）,46227478,生物碱类,,C13H11NO2,213.23,Wistar大鼠,肠系膜动脉,NO/cGMP,内皮依赖性,"Vasodilator Effect of Cassiarin A, a Novel Antiplasmodial Alkaloid from Cassia siamea, in Rat Isolated Mesenteric Artery",,6.4,,
+8,cerivastatin,cerivastatin(145599-86-6),446156,阳性药,,C26H34FNO5,459.5,wistar大鼠,胸主动脉,甲羟戊酸、Rho-Rho激酶,内皮依赖性,"Relaxant effects of pravastatin, atorvastatin and cerivastatin on isolated rat aortic rings",,,7.03,0.1778
+9,chrysin,chrysin (480-40-0),5281607,黄酮类,,C15H10O4,254.24,wistar大鼠,胸主动脉,"NO/CGMP,PI3",内皮依赖性,Endothelial nitric oxide production stimulated by the bioflavonoid chrysin in rat isolated aorta,无数据,,,
+10,chrysin,chrysin (480-40-0),5281607,黄酮类,,C15H10O4,254.24,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,,4.897（没找到用的试剂是什么）,,
+11,Cinnamic aldehyde,Cinnamic aldehyde(14371-10-9),637511,其他类,14371-10-9  104-55-2,C9H8O,132.16,wistar 大鼠,胸主动脉,NO，Ca2+,内皮依赖性和非依赖性,Cinnamaldehyde Induces Endothelium-Dependent and -Independent Vasorelaxant Action on Isolated Rat Aorta,,,1315,629.29999999999995
+12,dioclein,"dioclein (5,2',5'-trihydroxy-6-7-dimethoxyflavanone)（CAS：161748-44-3）（不确定）",178055,黄酮类,,C17H16O7,332.3,SD大鼠,胸主动脉,VOCs,非内皮依赖性,"Trigueiro, Flávia Elias et al. “Endothelium‐independent Vasorelaxant Effect of Dioclein, a New Flavonoid Isolated from Dioclea grandiflora, in the Rat",,,520,350
+13,floranol,floranol（CAS:502685-14-5),21599890,黄酮类,,C21H22O7,386.4,SD大鼠,胸主动脉,floranol 应该直接作用于大鼠主动脉平滑肌细胞以产生其血管舒张作用,在含有内皮的主动脉环中， 去氧肾上腺素预收缩的血管中诱导浓度依赖性血管舒张作用，去除内皮或用 NO 合酶抑制剂 lNAME 预处理血管不会改变 floranol 诱导的血管舒张的 IC50 和 Emax 值。,"Lemos, Virgínia Soares et al. “Structure and Vasorelaxant Activity of Floranol, a Flavonoid Isolated from the Roots of Dioclea grandiflora.” <em>Chemistry & Biodiversity</em> 3 (2006): n. pag.",,19.899999999999999,,
+14,Gomisin A,Gomisin A（58546-54-6）,3001662,苯丙素类,,C23H28O7,416.5 g/mol,雄性SD大鼠,胸主动脉,MLC磷酸酶,内皮依赖性,Gomisin A from Schisandra chinensis Induces Endothelium-Dependent and Direct Relaxation in Rat Thoracic Aorta,,无数据,,
+15,hesperetin,hesperetin（520-33-2）,72281,黄酮类,,C16H14O6,302.28,wistar大鼠,胸主动脉,Ca7+激活和ATP敏感钾通道,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,13.8,
+16,hesperetin,hesperetin（520-33-2）,72281,黄酮类,,C16H14O6,302.28,猪,冠状动脉,NO/cGMP,内皮依赖性,"Yu, Dong et al. “The relaxing effect of Poncirus fructus and its flavonoid content on porcine coronary artery.” <em>Laboratory Animal Research</em> 31 (2015): 33 - 39.",25.64,,,
+17,L-arginine,L-arginine（74-79-3）,6322,阳性药,142-49-4  7200-25-1  4455-52-1  74-79-3,C6H14N4O2,174.2,wistar 大鼠,胸主动脉,直接松弛,内皮依赖性,"Comparison of the Effect of Simvastatin, Spironolactone and L-arginine on Endothelial Function of Aorta in Hereditary Hypertriglyceridemic Rats",,无数据,,
+18,Nobiletin,Nobiletin（478-01-3）,72344,黄酮类,,C21H22O8,402.395,SD大鼠,肠系膜动脉,Ca2+-eNOS通路,内皮依赖性,Nobiletin Relaxes Isolated Mesenteric Arteries by Activating the Endothelial Ca2+-eNOS Pathway in Rats,,16.34,,
+19,pimaradienoic acid,pimaradienoic acid(471-74-9),10086296,萜类,Continentalic acid(19889-23-7); pimaradienoic acid(471-74-9),C20H30O2,302.5,wistar大鼠,胸主动脉,电压敏感钙通道,内皮非依赖性,Pharmacological comparison of the vasorelaxant action displayed by kaurenoic acid and pimaradienoic acid,,27.54,9.3260000000000005,
+20,pravastatin,pravastatin(81093-37-0),54687,阳性药,,C23H36O7,424.5,wistar大鼠,胸主动脉,甲羟戊酸、Rho-Rho激酶,内皮依赖性,"Relaxant effects of pravastatin, atorvastatin and cerivastatin on isolated rat aortic rings",,,75.86,79.430000000000007
+21,ProcyanidinB2,ProcyanidinB2(CAS:29106-49-8),122738,黄酮类,,C30H26O12,578.5,,The discarded HIMA segments from patients,BKCa和KATP通道的激活以及高浓度原花青素B2、KV和IKCa的激活渠道。此外，通过肌醇三磷酸受体调节细胞内 Ca2+ 释放，并通过刺激 Ca2+-ATPase 重新摄取到肌浆网，可能参与原花青素 B2 产生的 NO 依赖性 HIMA 松弛,原花青素 B2 对离体人体血管具有有效的血管扩张作用,Endothelium-dependent vasorelaxant effect of procyanidin B2 on human internal mammary artery,,0.1023,,
+22,Puerarin,Puerarin（3681-99-0）,5281807,黄酮类,,C21H20O9,416.38,SD大鼠,基底动脉,K+,内皮非依赖性,Mechanisms of the cerebral vasodilator actions of isoflavonoids of Gegen on rat isolated basilar artery,304,,,
+23,Quercetin,Quercetin(CAS:117-39-5),5280343,黄酮类,73123-10-1  74893-81-5  117-39-5,C15H10O7,302.23,wistar大鼠,胸主动脉,槲皮素的血管舒张作用不是通过抑制循环素介导的。 似乎主要与抑制蛋白激酶C有关。,槲皮素以浓度依赖性方式抑制去甲肾上腺素、高KCl和Ca2+诱导的收缩，自发性肌源性门静脉活动也受到抑制。机械去除内皮并不影响槲皮素对去甲肾上腺素引起的收缩的松弛作用。槲皮素增加主动脉环AMP含量。,"Duarte, Juan et al. “Vasodilator effects of quercetin in isolated rat vascular smooth muscle.” <em>European journal of pharmacology</em> 239 1-3 (1993):",,,40,8.6
+24,Taurine,Taurine（107-35-7）,1123,其他类,,C2H7NO3S,125.15,wistar 大鼠,主动脉,K+通道开放,内皮依赖性,Vasorelaxant effect of taurine is diminished by tetraethylammonium in rat isolated arteries,,数据过大,数据过大,
+25,thymol,thymol（89-83-8）,6989,酚类,,C10H14O,150.218,Wistar大鼠,主动脉环,Ca2+,内皮非依赖性,"Vasorelaxant effects of the monoterpenic phenol isomers, carvacrol and thymol, on rat isolated aorta",,106.4,64.400000000000006,
+26,Thymus linearis,Thymus linearis,,其他类,2.33644298800359e-309,,,猪,冠状动脉,eNOS,内皮非依赖性,"Alamgeer, Auger C, Chabert P, Lugnier C, Mushtaq MN, Schiniⴁ䬀攀爀琀栀 嘀䈀⸀ 䴀攀挀栀愀渀椀猀洀猀 甀渀搀攀爀氀礀椀渀最 瘀愀猀漀爀攀氀愀砀愀琀椀漀渀 椀渀搀甀挀攀搀 椀渀 琀栀攀 瀀漀爀挀椀渀攀 挀漀爀漀渀愀爀礀 愀爀琀攀爀椀攀猀 戀礀 吀栀礀洀甀猀 氀椀渀攀愀爀椀猀Ⰰ 䈀攀渀琀栀⸀ 䨀 䔀琀栀渀漀瀀栀愀爀洀愀挀漀氀⸀ ㈀　㄀㠀 伀挀琀 ㈀㠀㬀㈀㈀㔀㨀㈀㄀㄀ⴀ㈀㄀㤀⸀ 搀漀椀㨀 ㄀　⸀㄀　㄀㘀⼀樀⸀樀攀瀀⸀㈀　㄀㠀⸀　㜀⸀　㄀　⸀ 䔀瀀甀戀 ㈀　㄀㠀 䨀甀氀 ㈀　⸀ 倀䴀䤀䐀㨀 ㌀　　　㤀㤀㜀㜀⸀",无数据,,无数据,
+27,(-)-epigallocatechin-3-gallate (989-51-5）,(-)-epigallocatechin-3-gallate (989-51-5）,65064,酚类,,C22H18O11,458.4 g/mol,wistar大鼠,主动脉,Ca2+,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4"," P M I D :   3 7 7 8 3 7 1 3 ;   P M C I D :   P M C 1 0 5 4 5 8 2 7 .    7 2     u I d e n t i f i c a t i o n   o f   a   n e w   n a t u r a l   v a s o r e l a x a t a n t   c o m p o u n d ,   ( + ) - o s b e c k i c   a c i d ,   f r o m   r u t i n - f r e e   t a r t a r y   b u c k w h e a t   e x t r a c t  	 R o l e   o f   N i t r i c   O x i d e   a n d   H y d r o g e n   S u l f i d e   i n   t h e   V a s o d i l a t o r   E f f e c t   o f   U r s o l i c   A c i d   a n d   U v a o l   f r o m   B l a c k   C h e r r y   P r u n u s   s e r o t i n a   F r u i t s    p      N O  C h e n Z Y   a n d   Y a o X Q .    E p i c a t e c h i n   i n d u c e s   a n d   m o d u l a t e s   e n d o t h e l i u m d e p e n d e n t   r e l a x a t i o n   i n   i s o l a t e d   r a t   m e s e n t e r i c   a r t e r y   r i n g s .      ( 2 0 0 2 ) . m ( - ) e p i c a t e c h i n   i n d u c e s   a n d   m o d u l a t e s   e n d o t h e l i u m - d e p e n d e n t   r e l a x a t i o n   i n   i s o l a t e d   r a t   m e s e n t e r i c   a r t e r y   r i n g s  ºN sNQ¨R	  ÿH I M A 	ÿ K V SåNÊSB K C a TK A T P Sd M e c h a n i s m s   u n d e r l y i n g   t h e   v a s o r e l a x a t i o n   o f   h u m a n   i n t e r n a l   m a m m a r y   a r t e r y   i n d u c e d   b y   ( - ) - e p i c a t e c h i n    3 8 3 4 7 6 0 7     	 N O / c G M P ï ( + / - ) - P r a e r u p t o r i n   A   e n a n t i o m e r s   e x e r t   d i s t i n c t   r e l a x a n t   e f f e c t s   o n   i s o l a t e d   r a t   a o r t a   r i n g s   d e p e n d e n t   o n   e n d o t h e l i u m   a n d   n i t r i c   o x i d e   s y n t h e s i s  S H R 'Y e F e r u l i c   a c i d   r e s t o r e s   e n d o t h e l i u m - d e p e n d e n t   v a s o d i l a t i o n   i n   a o r t a s   o f   s p o n t a n e o u s l y   h y p e r t e n s i v e   r a t s  w i s a r 'Y  	 E n d o t h e l i u m - d e p e n d e n t   v a s o r e l a x a n t   e f f e c t s   o f   t h e   e s s e n t i a l   o i l   f r o m   a e r i a l   p a r t s   o f   A l p i n i a   z e r u m b e t   a n d   i t s   m a i n   c o n s t i t u e n t   1 , 8 - c i n e o l e   i n   r a t s    U   e   C a 2 + 0÷x¯sSv0±uÛVïpx_0K +  E v i d e n c e   f o r   t h e   M e c h a n i s m s   U n d e r l y i n g   t h e   E f f e c t s   o f   P i m a r a d i e n o i c   A c i d   I s o l a t e d   f r o m   t h e   R o o t s   o f   V i g u i e r a   a r e n a r i a   o n   R a t   A o r t a  K + 0C a 2 +  D i f f e r e n c e s   i n   t h e   m e c h a n i s m s   f o r   r e l a x a t i o n   o f   a o r t a   i n d u c e d   b y   1 7 b e t a - e s t r a d i o l   o r   p r o g e s t e r o n e   b e t w e e n   n o r m o t e n s i v e   a n d   h y p e r t e n s i v e   r a t s  5 8 3 3  9eUN O ËNü[;N¨R	~g_ 	 C o m p a r i s o n   o f   t h e   E f f e c t   o f   S i m v a s t a t i n ,   S p i r o n o l a c t o n e   a n d   L - a r g i n i n e   o n   E n d o t h e l i a l   F u n c t i o n   o f   A o r t a   i n   H e r e d i t a r y   H y p e r t r i g l y c e r i d e m i c   R a t s    ) ! 7  % s o l u b l e   g u a n y l a t e   c y c l a s e   ( s G C )  c G M P    B a r b o s a ,   L a   e t   a l .    V a s o r e l a x a n t   e f f e c t s   o f   1 - n i t r o - 2 - p h e n y l e t h e n e   i n   i s o l a t e d   r i n g s   o f   r a t   a o r t a .    < e m > P l a n t a   M e d i c a < / e m >   7 8   ( 2 0 1 2 ) :   n .   p a g .  àepencc E n d o t h e l i u m - i n d e p e n d e n t   v a s o r e l a x a n t   e f f e c t   o f   2 0 ( S ) - p r o t o p a n a x a d i o l   o n   i s o l a t e d   r a t   t h o r a c i c   a o r t a  B a l b / c \  A 2 A z÷×SSO0A 2 B Q C o m p a r i s o n   o f   t h e   v a s c u l a r   e f f e c t s   o f   a d e n o s i n e   i n   i s o l a t e d   m o u s e   h e a r t   a n d   a o r t a  M S \ M P a r a d o x i c a l   e f f e c t s   o f   p o l y p h e n o l i c   c o m p o u n d s   f r o m   C l u s i a c e a e   o n   a n g i o g e n e s i s 	 W i s t a r 'Y    ;N¨R	¯s   N O - c G M P - P K G   ¾S  íB e r n a r d i n o - P a u l a   R ,   C a r v a l h o - G a l v ã o   A ,   C a v a l c a n t i   A L M ,   R o c h a   P K L ,   C a r v a l h o   L R R A ,   B r a n d ã o   M C R ,   A t h a y d e - F i l h o   P F ,   D i n i z   T F ,   L e m o s   V S ,   F r a n ç a - S i l v a   M S ,   M o n t e n e g r o   M F ,   W e i t z b e r g   E ,   L u n d b e r g   J O ,   C a r l s t r ö m   M ,   B r a g a   V A .   T h e   n e w   o r g a n i c   n i t r a t e   2 - n i t r a t e - 1 , 3 - d i o c t h a n o x y p r o p a n   ( N D O P )   i n d u c e s   n i t r i c   o x i d e   p r o d u c t i o n   a n d   v a s o r e l a x a t i o n   v i a   a c t i v a t i o n   o f   i n w a r d - r e c t i f i e r   p o t a s s i u m   c h a n n e l s   ( K I R ) .   N i t r i c   O x i d e .   2 0 2 0   N o v   1 ; 1 0 4 - 1 0 5 : 6 1 - 6 9 .   d o i :   1 0 . 1 0 1 6 / j . n i o x . 2 0 2 0 . 1 0 . 0 0 1 .   E p u b   2 0 2 0   O c t   7 .   P M I D :   3 3 0 3 8 4 8 3 .   û|¨R	   C a ( 2 + )  V a s o r e l a x a n t   e f f e c t   o f   i s o p r o p y l   3 - ( 3 ,   4 - d i h y d r o x y p h e n y l ) - 2 - h y d r o x y p r o p a n o a t e ,   a   n o v e l   m e t a b o l i t e   f r o m   S a l v i a   m i l t i o r r h i z a ,   o n   i s o l a t e d   r a t   m e s e n t e r i c   a r t e r y  C a 7 + } R e l a x a t i o n   t o   F l a v o n e s   a n d   F l a v o n o l s   i n   R a t   I s o l a t e d   T h o r a c i c   A o r t a :   M e c h a n i s m   o f   A c t i o n   a n d   S t r u c t u r e - A c t i v i t y   R e l a t i o n s h i p s    8 7 6 8      wN0RhQe N O / C a 2 + a V a s o d i l a t o r y   e f f e c t s   a n d   u n d e r l y i n g   m e c h a n i s m s   o f   t h e   e t h y l   a c e t a t e   e x t r a c t s   f r o m   G a s t r o d i a   e l a t a   N'lS.lS  ¾»yP[S> )Y6q'lBg½nD G P \O:N NÍyQ®vOV'`@¡{~g_BR>f:yúQo}Yv\oRÿÇ N'lS.l_T¾Sw\O(uÿ gÈ~>f@wMNOØ@S'Y v@S¡ V a s o d i l a t i o n   a n d   B l o o d   P r e s s u r e - L o w e r i n g   E f f e c t   o f   3 - D e m e t h y l - 2 - G e r a n y l - 4 - P r e n y l b e l l i d i f o l i n e ,   a   X a n t h o n e   O b t a i n e d   f r o m   G a r c i n i a   a c h a c h a i r u ,   i n   H y p e r t e n s i v e   R a t s Ý T a n ,   C h u   S h a n   a n d   M u n   F e i   Y a m .    M e c h a n i s m   o f   v a s o r e l a x a t i o n   i n d u c e d   b y   3 2 - h y d r o x y - 5 , 6 , 7 , 4 2 - t e t r a m e t h o x y f l a v o n e   i n   t h e   r a t s   a o r t i c   r i n g   a s s a y .    < e m > N a u n y n - S c h m i e d e b e r g ' s   A r c h i v e s   o f   P h a r m a c o l o g y < / e m >   3 9 1   ( 2 0 1 8 ) :   5 6 1   -   5 6 9 . 
+ 1 5 5 9 0 0 1 2        1 2 6      N O / c G M P / P K G       A C / c A M P / P K A   ï Q®vOV'`/ Q®v^OV'`   àee.sT   1 3 5      H y p o t e n s i v e   a c t i v i t y   o f   a n   n - b u t a n o l   e x t r a c t   a n d   t h e i r   p u r i f i e d   c o m p o u n d s   f r o m   l e a v e s   o f   P h y l l a n t h u s   a c i d u s   ( L . )   S k e e l s   i n   r a t s  E D R F / N O J A r t e r y   r e l a x a t i o n   b y   c h a l c o n e s   i s o l a t e d   f r o m   t h e   r o o t s   o f   A n g e l i c a   k e i s k e i    7 7 3 8      >\¨R	¯s V a s o d i l a t i o n   a n d   r a d i c a l - s c a v e n g i n g   a c t i v i t y   o f   i m p e r a t o r i n   a n d   s e l e c t e d   c o u m a r i n i c   a n d   f l a v o n o i d   c o m p o u n d s   f r o m   g e n u s   C a s i m i r o a  àe A 2 A z÷×SSO0A 3 B  ¶[TQu [ 3 8 ] Rwmâl, ØN[÷^, á%f, I{. Än{|STirW X - 0 2 ù[TQ»ySO@¡{¯sv _\O(u[ J ] . l3oÑy'Yf[f[¥b, 2 0 1 3 , 3 0 ( 0 9 ) : 7 0 9 - 7 1 2 . D O I : 1 0 . 1 4 0 6 6 / j . c n k i . c n 2 1 - 1 3 4 9 / r . 2 0 1 3 . 0 9 . 0 1 7 . 
+   5 3 1 7 5 6 4     c N e w   L i g n a n s   f r o m   t h e   R o o t s   o f   V a l e r i a n a   p r i o n o p h y l l a   w i t h   A n t i o x i d a t i v e   a n d   V a s o r e l a x a n t   A c t i v i t i e s    1 3 5 4 6 9 4 1 9      S  ¾S' )Y6quir±x  8 - 'lãN- 9 - N""l  m a k o m a k i n e   ýYMNO¨R	s^Ñnv _R)C i f u e n t e s   F ,   P a l a c i o s   J ,   P a r e d e s   A ,   N w o k o c h a   C R ,   P a z   C .   8 - O x o - 9 - D i h y d r o m a k o m a k i n e   I s o l a t e d   f r o m   A r i s t o t e l i a   c h i l e n s i s   I n d u c e s   V a s o d i l a t i o n   i n   R a t   A o r t a :   R o l e   o f   t h e   E x t r a c e l l u l a r   C a l c i u m   I n f l u x .   M o l e c u l e s .   2 0 1 8   N o v   2 1 ; 2 3 ( 1 1 ) : 3 0 5 0 .   d o i :   1 0 . 3 3 9 0 / m o l e c u l e s 2 3 1 1 3 0 5 0 .   P M I D :   3 0 4 6 9 4 5 1 ;   P M C I D :   P M C 6 2 7 8 2 4 8 .  2 4 8 1 2 7 5 8  »yP[S aS<hRÀQïSX:_Q®vOV'`@¡{ _H a s a n   A ,   M e n o n   S N ,   Z e r i n   F ,   H a s a n   R .   D a p a g l i f l o z i n   i n d u c e s   v a s o d i l a t i o n   i n   r e s i s t a n c e - s i z e   m e s e n t e r i c   a r t e r i e s   b y   s t i m u l a t i n g   s m o o t h   m u s c l e   c e l l   K V 7   i o n   c h a n n e l s .   H e l i y o n .   2 0 2 2   M a y   2 0 ; 8 ( 5 ) : e 0 9 5 0 3 .   d o i :   1 0 . 1 0 1 6 / j . h e l i y o n . 2 0 2 2 . e 0 9 5 0 3 .   P M I D :   3 5 6 4 7 3 3 1 ;   P M C I D :   P M C 9 1 3 1 2 4 9 .  K A T P 0z÷A 2 A ×SSO[ A n a l y s i s   o f   A d e n o s i n e   V a s c u l a r   E f f e c t   i n   I s o l a t e d   R a t   A o r t a :   P o s s i b l e   R o l e   o f   N a + / K + - A T P a s e  Æ~ÞYC a 2 + 0N O - c G M P  A l p h a - n a p h t h o f l a v o n e   i n d u c e s   v a s o r e l a x a t i o n   t h r o u g h   t h e   i n d u c t i o n   o f   e x t r a c e l l u l a r   c a l c i u m   i n f l u x   a n d   N O   f o r m a t i o n   i n   e n d o t h e l i u m   û|
+N¨R	 C a 3 + 0P K C N V a s o r e l a x a n t   E f f e c t s   o f   C a r d a m o n i n   a n d   A l p i n e t i n   f r o m   A l p i n i a   h e n r y i   K .   S c h u m .  C a 3 + « W a n g ,   Z h e n g - T a o   e t   a l .    V a s o r e l a x a n t   E f f e c t s   o f   C a r d a m o n i n   a n d   A l p i n e t i n   f r o m   A l p i n i a   h e n r y i   K .   S c h u m .    < e m > J o u r n a l   o f   C a r d i o v a s c u l a r   P h a r m a c o l o g y < / e m >   3 7   ( 2 0 0 1 ) :   5 9 6 - 6 0 6 .  K c a 0N O - C G M P  K a n g ,   D a e   G i l l   e t   a l .    V a s o r e l a x a t i o n   b y   a m e n t o f l a v o n e   i s o l a t e d   f r o m   S e l a g i n e l l a   t a m a r i s c i n a .    < e m > P l a n t a   m e d i c a < / e m >   7 0   8   ( 2 0 0 4 ) :    N O / c G M P   ¼ K a n g   D G ,   Y i n   M H ,   O h   H ,   L e e   D H ,   L e e   H S .   V a s o r e l a x a t i o n   b y   a m e n t o f l a v o n e   i s o l a t e d   f r o m   S e l a g i n e l l a   t a m a r i s c i n a .   P l a n t a   M e d .   2 0 0 4   A u g ; 7 0 ( 8 ) : 7 1 8 - 2 2 .   d o i :   1 0 . 1 0 5 5 / s - 2 0 0 4 - 8 2 7 2 0 1 .   P M I D :   1 5 3 2 6 5 4 8 .  P 2 Y 1 0P 2 Y 2 0N o m V a s o r e l a x a n t   e f f e c t s   o f   g r a p e   p o l y p h e n o l s   i n   r a t   i s o l a t e d   a o r t a .   P o s s i b l e   i n v o l v e m e n t   o f   a   p u r i n e r g i c   p a t h w a y 	 N O / c G M P      ¹Ü }ñü['Y ;N¨R	Q®vOV'`T^OV'`~g_ò Z h a n g   Y H ,   P a r k   Y S",,,115,
+28,4-hydroxy-3-,4-hydroxy-3-(3-methyl-2-butenyl)acetophenone（26932-05-8）,442916,其他类,,C13H16O2,204.265,攀渀搀攀渀琀 愀渀搀 ⴀ椀渀搀攀瀀攀渀搀攀渀琀 瘀愀猀漀爀攀氀愀砀愀琀椀漀渀⸀ 䄀渀渀 倀栀愀爀洀 䘀爀⸀ ㈀　㈀㐀 䨀愀渀㬀㠀㈀⠀㄀⤀㨀㠀㐀ⴀ㤀㔀⸀ 搀漀椀㨀 ㄀　⸀㄀　㄀㘀⼀樀⸀瀀栀愀爀洀愀⸀㈀　㈀㌀⸀　㠀⸀　　㌀,主动脉,Ca2+,,,,33.799999999999997,,
+29,Calycosin,Calycosin（20575-57-9）,5280448,黄酮类,,C16H12O5,284.26 g/mol,SD大鼠,胸主动脉,,非内皮依赖性,,,34.67,53.7,
+30,citral,citral（CAS：5392-40-5）,638011,萜类,,C10H16O,152.23,,胸主动脉,NO/cGMP,非内皮依赖性,,,1420,,
+31,daidzin,daidzin（552-66-9）,107971,黄酮类,,C21H20O9,416.378,SD大鼠,基底动脉,K+,内皮非依赖性,Mechanisms of the cerebral vasodilator actions of isoflavonoids of Gegen on rat isolated basilar artery,140,,,
+32,ent-18-hydroxy-trachyloban-3-one,ent-18-hydroxy-trachyloban-3-one（CAS未找到）,,其他类,2.33644298800359e-309,,,Wistar大鼠,主动脉环,,,,,,1.9950000000000001,
+33,hyperin,hyperin（65549-68-0）,6455156,黄酮类,482-36-0,C21H20O12,464.376,SD大鼠,基底动脉,,内皮依赖性,,730,,1280,
+34,hyperin,hyperin（65549-68-0）,6455156,其他类,482-36-0,C21H20O12,464.376,SD大鼠,基底动脉,,内皮依赖性,,730.1,,1275,
+35,polydatin,polydatin（27208-80-6）,5281718,其他类,,C20H22O8,390.384,大鼠,胸主动脉,,,,,无数据,,
+36,protocatechuic acid,protocatechuic acid（99-50-3）,72,酚类,,C7H6O4,154.12,11632.81,,,,,,2160,,
+37,Ursolic Acid,Ursolic Acid（CAS：77-52-1）,64945,萜类,,C30H48O3,456.7,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,47.08,
+38,(-)epicatechin（17334-50-8）,(-)epicatechin（17334-50-8）,72276,酚类,490-46-0,C15H14O6,290.27,SD大鼠,肠系膜动脉,,内皮依赖性,,,3.2360000000000002,,
+39,(-)epicatechin（17334-50-8）,(-)epicatechin（17334-50-8）,72276,其他类,"♦ 2545-08-6
+♦ 490-46-0",C15H14O6,290.27,SD大鼠,肠系膜动脉,,内皮依赖性,,,3.2360000000000002,,
+40,(-)-epicatechin（490-46-0）,(-)-epicatechin（490-46-0）,72276,酚类,,C15H14O6,290.27,,,,内皮非依赖性,,,7.2439999999999998,,
+41,(-)-Praeruptorin A（73069-27-9）,(-)-Praeruptorin A（73069-27-9）,38347607,香豆素类,14017-71-1,C21H22O7,386.395,SD大鼠,主动脉环,,内皮依赖性,,,45.8,20.9,
+42,(+)-osbeckic acid （CAS：112923-64-5）,(+)-osbeckic acid （CAS：112923-64-5）,13965143,其他类,,无,无,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,887,,
+43,(+)-Praeruptorin A（73069-27-9）,(+)-Praeruptorin A（73069-27-9）,38347607,香豆素类,,C21H22O7,386.395,SD大鼠,主动脉环,,内皮依赖性,,,35.4,12.1,
+44,(E)-Ferulic acid（537-98-4）,(E)-Ferulic acid（537-98-4）,445858,酚酸类,537-98-4  1135-24-6  97274-61-8  171876-65-6,C10H10O4,194.18,,胸主动脉,,内皮依赖性,,,6636,,
+45,"1,8-cineole","1,8-cineole（CAS：470-82-6）",2758,萜类,,C10H18O,154.249,,胸主动脉,NO/cGMP,内皮依赖性,,,4299.54,,
+46,15-dien-19-oic acid,15-dien-19-oic acid（127-27-5）,220338,萜类,,C20H30O2,302.5 g/mol,wistar大鼠,胸主动脉,,,,,53.703000000000003,31.623000000000001,
+47,17β-Estradiol,17β-Estradiol（50-28-2）,,其他类,73459-61-7,,,wistar大鼠,胸主动脉,,内皮非依赖性,,,,,6.918（wistar)/0.4266（SHR）
+48,spironolactone,spironolactone,5833,阳性药,,C24H32O4S,416.6,wistar 大鼠,胸主动脉,,内皮依赖性,,,无数据,,
+49,1-nitro-2-phenylethene,1-nitro-2-phenylethene（CAS：15241-23-3）（没查到）,139815015,其他类,,C8H7NO4,181.15,SD大鼠,胸主动脉,,非内皮依赖性,,,70.198999999999998,71.004000000000005,
+50,20,20(S)-protopanaxadiol,无数据,其他类,30636-90-9,,,Wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,90.4,46.5,
+51,2-chloradenosine,2-chloradenosine（146-77-0）,15230336,其他类,未找到,C10H14ClN5O4,303.70 g/mol,,冠状动脉,,内皮依赖性,,,39.08,,
+52,2-Deprenylrheediaxanthone,2-Deprenylrheediaxanthone (DRX)（CAS：太多了没查到）,11439282,其他类,,C19H18O6,342.3,,胸主动脉,NO/cGMP,内皮依赖性,,6.0259999999999998,,,
+53,"2-nitrate-1,3-dioctanoxypropan","2-nitrate-1,3-dioctanoxypropan （CAS：917947-75-2）",,其他类,,C23H16N4O,364.399,,,,非内皮依赖性,,,8.7560000000000002,,
+54,3-,"3-(3, 4-dihydroxyphenyl)-2-hydroxypropanoate（CAS：109170-71-0）",439435,其他类,,C9H9O5-,197.16,SD大鼠,,,非内皮依赖性,,,,,3.9800000000000002E-2
+55,"3,3′,4′-trihydroxyflavone","3,3′,4′-trihydroxyflavone",5280445,黄酮类,未找到,C15H10O6,286.24 g/mol,SD大鼠,胸主动脉,,内皮依赖性,,,1.4454400000000001,,
+56,"3,4-dihydroxybenzaldehyde","3,4-dihydroxybenzaldehyde（139-85-5）C",8768,其他类,,C7H6O3,138.12,,,,内皮非依赖性,,,478,,
+57,"3,4-Dihydroxybenzoic acid","3,4-Dihydroxybenzoic acid(CAS：99-50-3）",72,酚酸类,,C7H6O4,154.12,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,2160,,
+58,"3,4-dihydroxyflavonol","3,4-dihydroxyflavonol（6068-78-6）",145826,黄酮类,,C15H10O5,270.24 g/mol,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,,1.44544（没找到用的试剂是什么）,,
+59,3-demethyl-2-geranyl-4-prenylbellidifoline,3-demethyl-2-geranyl-4-prenylbellidifoline,,其他类,2.33644298800359e-309,,,大鼠,胸主动脉,,,,,0.1192,,
+60,"3'-Hydroxy-5,6,7,4'-tetramethoxyflavone","3'-Hydroxy-5,6,7,4'-tetramethoxyflavone（CAS：21764-09-0）",7020615,黄酮类,,C19H18O7,358.3,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,0.33100000000000002,,
+61,"4,4'-dihydroxydiphenyl methane","4,4'-dihydroxydiphenyl methane（19389-73-2）D",15590012,其他类,,C18H18O5,314.333,,,Ca2+,内皮依赖性,,,3.5289999999999999,,
+62,4-hydroxybenzaldehyde,4-hydroxybenzaldehyde（123-08-0）B,126,其他类,,C7H6O2,122.121,,,,内皮依赖性,,,642,,
+63,4-hydroxybenzaldehyde,4-hydroxybenzaldehyde（123-08-0）B,126,其他类,,C7H6O2,122.121,SD大鼠,,,,,,295.12,1096.4000000000001,
+64,4-hydroxybenzoic acid,4-hydroxybenzoic acid（99-96-7）,135,酚酸类,,C7H6O3,138.121,Wistar大鼠,胸主动脉,,内皮依赖性,,,1780,,
+65,4-hydroxyderricin,4-hydroxyderricin（55912-03-3）,6438503,酚类,,C21H22O4,338.4 g/mol,wistar大鼠,胸主动脉,,内皮依赖性,,,214.125,,
+66,4-methoxybenzyl alcohol,4-methoxybenzyl alcohol（105-13-5）A,7738,其他类,,C8H10O2,138.164,,,,内皮依赖性,,,1513,,
+67,"5,6,2′,3′,4′-pentamethoxyflavone","5,6,2′,3′,4′-pentamethoxyflavone（CAS未查到）",,黄酮类,372.4 g/mol,,,Wistar大鼠,,Ca2+,内皮依赖性,,,2.089,,
+68,5′-,5′-(N-ethyl-carboxamido)-adenosine,无,其他类,未找到,无,无,,冠状动脉,,内皮依赖性,,,10.220000000000001,,
+69,"5-acetyl-6-hydroxy-2-isopropenyl-2,3-dihydrobenzofurane","5-acetyl-6-hydroxy-2-isopropenyl-2,3-dihydrobenzofurane（CAS未找到）",,其他类,2.33644298800359e-309,,,攀渀搀攀渀琀 愀渀搀 ⴀ椀渀搀攀瀀攀渀搀攀渀琀 瘀愀猀漀爀攀氀愀砀愀琀椀漀渀⸀ 䄀渀渀 倀栀愀爀洀 䘀爀⸀ ㈀　㈀㐀 䨀愀渀㬀㠀㈀⠀㄀⤀㨀㠀㐀ⴀ㤀㔀⸀ 搀漀椀㨀 ㄀　⸀㄀　㄀㘀⼀樀⸀瀀栀愀爀洀愀⸀㈀　㈀㌀⸀　㠀⸀　　㌀,主动脉,Ca2+,,,,10,,
+70,5-hydroxymethyl-2-furoic acid,5-hydroxymethyl-2-furoic acid（6338-41-6）,80642,其他类,,C6H6O4,142.11,11632.81,,,,,,3610,,
+71,5-hydroxymethyl-2-furoic acid,5-hydroxymethyl-2-furoic acid（6338-41-6）,80642,其他类,,C6H6O4,142.11,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,3610,,
+72,6-[2-,6-[2- (二甲氨基) 乙氧基]黄酮盐酸盐（WX-02）,无数据,其他类,2.33644298800359e-309,,,,胸主动脉,Ca2+,内皮非依赖性,,,,147.911,169.82400000000001
+73,8-geranyloxypsoralen,8-geranyloxypsoralen（7437-55-0）,5317564,香豆素类,,C21H22O4,338.397,Wistar大鼠,,Ca2+,内皮依赖性,,,251.19,,
+74,8-hydroxypinoresinol,8-hydroxypinoresinol(81426-17-7),3010930,苯丙素类,,C20H22O7,374.4 g/mol,wistar大鼠,胸主动脉,,内皮非依赖性,,,210.4,,
+75,8-Oxo-9-Dihydromakomakine,8-Oxo-9-Dihydromakomakine（80465-07-2）,135469419,生物碱类,,C8H4N2O2,160.13,SD大鼠,胸主动脉,,,,,61.83,,
+76,8-Oxo-9-Dihydromakomakine,8-Oxo-9-Dihydromakomakine（80465-07-2）,135469419,其他类,,C8H4N2O2,160.13,SD大鼠,胸主动脉,Ca2+,内皮非依赖性,,,61.83,,
+77,Acute canagliflozin,Acute canagliflozin（CAS：842133-18-0）,24812758,阳性药,,Acute canagliflozin,444.516,SD大鼠,冠状动脉,,,,,无数据,,
+78,adenosine,adenosine（58-61-7）,60961,其他类,,C10H13N5O4,267.24,wistar大鼠,胸主动脉,,内皮非依赖性,,,40.738,311.2,
+79,adenosine,adenosine（58-61-7）,60961,其他类,,C10H13N5O4,267.24,wistar大鼠,胸主动脉,,内皮依赖性,,,150,,
+80,Alpha-naphthoflavone,Alpha-naphthoflavone（604-59-1）,11790,黄酮类,,C19H12O2,272.3 g/mol,wistar大鼠,胸主动脉,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,,0.95,,
+81,Alpinetin,Alpinetin（36052-37-6）,154279,黄酮类,,C16H14O4,270.28,SD大鼠,,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,41.7,27.5,92.1,
+82,Alpinetin,Alpinetin（36052-37-6）,154279,黄酮类,,C16H14O4,270.28,SD大鼠,,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,41.7,27.5,92.1,
+83,Alpinetin,Alpinetin（36052-37-6）,154279,黄酮类,,C16H14O4,270.28,SD大鼠,,,内皮依赖性,,87.92,27.5,,
+84,amentoflavone,amentoflavone（1617-53-4）,5281600,黄酮类,,C30H18O10,538.5,SD大鼠,胸主动脉,,内皮依赖性,,,0.776,,
+85,amentoflavone,amentoflavone（1617-53-4）,5281600,黄酮类,,C30H18O10,538.5,SD大鼠,胸主动脉,,内皮依赖性,,,0.776,,
+86,anthocyanins/Flavylium,anthocyanins/Flavylium（14051-53-7）,145858,黄酮类,文章里没说是什么结构，不确定,C15H11O+,207.25 g/mol,wistar大鼠,胸主动脉,,内皮非依赖性,,,,2618.1,
+87,apigenin,apigenin（520-36-5）,5280443,黄酮类,,C15H10O5,270.24,SD大鼠,胸主动脉,Ca2+,内皮非依赖性,,,11.48,,
+88,apigenin,apigenin（520-36-5）,5280443,黄酮类,,C15H10O5,270.24,SD大鼠,胸主动脉,,,,,3.7,,
+89,apigenin,apigenin（520-36-5）,5280443,黄酮类,,C15H10O5,270.24,SD大鼠,,,,,18.190000000000001,22.77,26.26,
+90,apigenin,apigenin（520-36-5）,5280443,黄酮类,,C15H10O5,270.24,SD大鼠,肠系膜动脉,,内皮依赖性,,,4.82,,
+91,apigenin,apigenin（520-36-5）,5280443,黄酮类,"♦ 461015-54-3
+♦ 520-36-5",C15H10O5,270.24,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,9.5500000000000007,
+92,apigenin,apigenin（520-36-5）,5280443,黄酮类,,C15H10O5,270.24,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,,11.482（没找到用的试剂是什么）,,
+93,Apocynin,Apocynin（CAS：498-02-2）,2214,酚类,,C9H10O3,166.17,SD大鼠,胸主动脉,,,,,780,,
+94,Apocynin,Apocynin（CAS：498-02-2）,2214,酚类,,C9H10O3,166.17,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,452,,
+95,Arachidonic acid,Arachidonic acid（506-32-1）,444899,其他类,,C20H32O2,304.5 g/mol,,主动脉,,内皮依赖性,,,106,,
+96,Aristolone,Aristolone（CAS:25274-27-5）,165536,萜类,,C15H22O,218.335,SD大鼠,,,,,66.25,,,
+97,asafoetida essential oil,asafoetida essential oil,,其他类,2.33644298800359e-309,,,大鼠,主动脉环,,,,,,非单体,
+98,Asphodelus tenuifolius,Asphodelus tenuifolius,,其他类,2.33644298800359e-309,,,猪,冠状动脉,,内皮非依赖性,,无数据,,,
+99,Astragaloside IV,Astragaloside IV(84687-43-4),13943297,皂苷类,,C41H68O14,785,SD大鼠,胸主动脉,,内皮依赖性,,,26.71,,
+100,Astragaloside IV,Astragaloside IV(84687-43-4),13943297,皂苷类,,C41H68O14,785,wistar 大鼠,胸主动脉,,内皮依赖性,,,20.89,,
+101,atorvastatin,atorvastatin (134523-00-5),60823,阳性药,134523-00-5  134523-03-8  344423-98-9,C33H35FN2O5,558.6,wistar大鼠,胸主动脉,甲羟戊酸、Rho-Rho激酶,内皮依赖性,,,,125.89,67.61
+102,Aurantio-obtusin,Aurantio-obtusin（67979-25-3）,155011,其他类,,C17H㄁㐀伀㜀,330.289,Wistar大鼠,肠系膜动脉,,内皮依赖性,,,25.12,,
+103,"a y a n i n ÿ5 7 2 - 3 2 - 7 	ÿ C 1 8 H 1 6 O 7  3 4 4 . 3   g / m o l  b a i c a l i n ÿ2 1 9 6 7 - 4 1 - 9 	ÿ @b	gd0RvÓ~gTeàzÌvN N7hÿNnx[	 C 2 1 H 1 8 O 1 1  4 4 6 . 4   g / m o l 	 3 0 8 3 8 4 8      B a k u c h i c i n   ÿ4 4 1 2 - 9 3 - 5 	ÿ C 1 1 H 6 O 3  B a u h i n i a   f o r f i c a t a   L i n k  b e r b e r i n e ÿ2 0 8 6 - 8 3 - 1 	ÿ
+ C 2 0 H 1 8 N O 4 +  3 3 6 . 4   g / m o l  b e t a - E s t r a d i o l ÿC A S ÿ5 0 - 2 8 - 2 	ÿ C 1 8 H 2 4 O 2  b e t a i n e ","a y a n i n ÿ5 7 2 - 3 2 - 7 	ÿ C 1 8 H 1 6 O 7  3 4 4 . 3   g / m o l  b a i c a l i n ÿ2 1 9 6 7 - 4 1 - 9 	ÿ @b	gd0RvÓ~gTeàzÌvN N7hÿNnx[	 C 2 1 H 1 8 O 1 1  4 4 6 . 4   g / m o l 	 3 0 8 3 8 4 8      B a k u c h i c i n   ÿ4 4 1 2 - 9 3 - 5 	ÿ C 1 1 H 6 O 3  B a u h i n i a   f o r f i c a t a   L i n k  b e r b e r i n e ÿ2 0 8 6 - 8 3 - 1 	ÿ
+ C 2 0 H 1 8 N O 4 +  3 3 6 . 4   g / m o l  b e t a - E s t r a d i o l ÿC A S ÿ5 0 - 2 8 - 2 	ÿ C 1 8 H 2 4 O 2  b e t a i n e ( 1 0 7 - 4 3 - 7 )  C 5 H 1 1 N O 2    6 4 9 7 1      b e t u l i n i c   a c i d ÿ4 7 2 - 1 5 - 1 	ÿ b r a z i l i n ÿ4 7 4 - 0 7 - 7 	ÿ C 1 6 H 1 4 O 5  2 8 6 . 2 8   g / m o l 	 2 0 0 8 6 6 1      B r y o t h a m n i o n   t r i q u e t r u m  9 K D a  C 2 - c e r a m i d e ( 3 1 0 2 - 5 7 - 6 ) 	 C 2 0 H 3 9 N O 3  3 4 1 . 5     	   6 8 9 0 4 3      c a f f e i c   a c i d ÿ3 3 1 - 8 9 - 5 	ÿ
+ C 9 H 1 0 F N O 2 S & C a l o t h w a i t e s i x a n t h o n e ÿC A S ÿ1 0 5 0 3 7 - 9 3 - 2 	ÿ C 2 3 H 2 2 O 5  C a l o x a n t h o n e   C ÿC A S ÿ*gåg0R	ÿ c a l y c o s i n ( 2 0 5 7 5 - 5 7 - 9 )  2 8 4 . 2 6      c a r d a m o n i n   ( 1 9 3 0 9 - 1 4 - 9 )  C a r n o s i n e ÿ3 0 5 - 8 4 - 0 	ÿ	 C 9 H 1 4 N 4 O 3  2 2 6 . 2 3   g / m o l    1 0 3 6 4      c a r v a c r o l ÿ4 9 9 - 7 5 - 2 	ÿ 1 0 3 6 4      C a t e c h i n   G a l l a t e ( 1 3 0 4 0 5 - 4 0 - 2 )  2 5 6 1 5 - 0 5 - 8         1 2 5 7 - 0 8 - 5 	 C 2 2 H 1 8 O 1 0  4 4 2 . 4     
+   5 4 5 8 1 9 0      C a t h a r a n t h i n e ÿ2 4 6 8 - 2 1 - 5 	ÿ
+ C 2 1 H 2 4 N 2 O 2 	 5 4 5 8 1 9 0     	 5 2 8 3 5 6 5      c e r a m i d e ÿ1 0 4 4 0 4 - 1 7 - 3 	ÿ	 C 4 8 H 9 3 N O 6  C h e n o p o d i u m ÿC A S : 4 6 9 - 6 0 - 3 ) 	 C 2 7 H 3 7 N O 3  c h l o r o g e n i c   a c i d s ÿC A S ; 3 2 7 - 9 7 - 9 	ÿ C 1 6 H 1 8 O 9  c h l o r o q u i n e ( 5 4 - 0 5 - 7 ) 
+ C 1 8 H 2 6 C l N 3  6 3 7 5 1 1      C i n n a m a l d e h y d e ÿ1 0 4 - 5 5 - 2 	ÿ	   6 3 8 0 1 1      c i t r a l ( 5 3 9 2 - 4 0 - 5 	ÿ C 1 0 H 1 6 O  C o c a i n e   H C l ÿ5 3 - 2 1 - 4 	ÿ C 1 7 H 2 2 C l N O 4  3 3 9 . 8   g / m o l  C r a m b e s c i n   C 1   ÿC A S ÿ1 4 2 6 0 5 - 0 6 - 9 	ÿ
+ C 2 5 H 4 8 N 6 O 3 
+   5 2 8 1 2 3 3      c r o c i n ÿ4 2 5 5 3 - 6 5 - 1 	ÿ	 C 4 4 H 6 4 O 2 4 	   1 1 7 4 4 3      c u b e b i n ÿ1 8 4 2 3 - 6 9 - 3 	ÿ C 2 0 H 2 0 O 6  C u r c u m i n   ( 4 5 8 - 3 7 - 7 )  C 2 1 H 2 0 O 6   c y c l o v i r o b u x i n e   D : ÿC A S ÿ8 6 0 - 7 9 - 7 	ÿ	 C 2 6 H 4 6 N 2 O 
+   5 2 8 1 7 0 8      d a i d z e i n ÿ4 8 6 - 6 6 - 8 	ÿ D a p a g l i f l o z i n ÿ4 6 1 4 3 2 - 2 6 - 8 	ÿ
+ C 2 1 H 2 5 C l O 6  d e s o x y r h a p o n t i g e n i n ÿ3 3 6 2 6 - 0 8 - 3 	ÿ 	 C 1 5 H 1 4 O 3     9    9    9  d i h y d r o s p i n o c h a l c o n e - A ÿ*gd0R	ÿ"" D i h y d r o t a n s h i n o n e ÿC A S ÿ1 2 5 6 2 3 - 9 7 - 4 	ÿ 	 C 1 8 H 1 4 O 3     9    9    9  d i o s c i n ÿC A S ÿ1 9 0 5 7 - 6 0 - 4 	ÿ	 C 4 5 H 7 2 O 1 6  D i o s g e n i n ÿ5 1 2 - 0 4 - 9 	ÿ C 2 7 H 4 2 O 3  D i o s m e t i n ( C A S : 5 2 0 - 3 4 - 3 )  C 1 6 H 1 2 O 6  d i o x i d o s u l f a t e ( "" 1 "") ÿ1 2 1 4 3 - 1 7 - 8 	ÿ S O 2  *gd0R& e n t - 1 8 - h y d r o x y - t r a c h y l o b a n - 3 - o n e   ( D T 6 )  C 2 0 H 3 2 O  D o c o s a h e x a e n o i c ÿ6 2 1 7 - 5 4 - 5 	ÿ C 2 2 H 3 2 O 2  3 2 8 . 5   g / m o l  E c h i n a c o s i d e ( C A S ; 8 2 8 5 4 - 3 7 - 3 ) 	 	 C 3 5 H 4 6 O 2 0     9    9    9 # e n t - t r a c h y l o b a n - 1 4 , 1 5 - d i o n e ÿC A S *g~b0R	ÿ"" E p i g a l l o c a t e c h i n   G a l l a t e ÿ9 8 9 - 5 1 - 5 	ÿ 4 4 0 7 3 5      e r i o d i c t y o l ( 5 5 2 - 5 8 - 9 )  C 1 5 H 1 2 O 6  E r u c a   s a t i v a   M i l l  e r y t h r o d i o l ÿ5 4 5 - 4 8 - 2 	ÿ C 3 0 H 5 0 O 2  4 4 2 . 7   g / m o l 
+ E s q u a m o s a n < e s s e n t i a l   o i l   f r o m   F r u c t u s   A l p i n i a e   Z e r u m b e t ÿàeC A",5280682,黄酮类,,"÷SI{penc	ÿÿ/f÷mTir	ÿB 	 E t h a n o l i c   f r a c t i o n   o f   M o r o c c a n   C a n n a b i s   s a t i v a   t h r e s h i n g   r e s i d u e s        .     4 4 4 3 7 6 9 2      E t h y l   r o s m a r i n a t e ÿ1 7 4 5 9 1 - 4 7 - 0 	ÿ C 2 0 H 2 0 O 8  8 4 6 7      e t h y l   v a n i l l i n ÿ1 2 1 - 3 2 - 4 	ÿ e u c a l b a n i n   B  E u d e s m i n ÿC A S ÿ5 2 6 - 0 6 - 7 	ÿ 	 C 2 2 H 2 6 O 6     9    9    9  e u p a t o r i n ÿC A S ÿ2 1 7 6 4 - 0 9 - 0 	ÿ 8 5 5 - 9 6 - 9  e z e t i m i b e ÿ1 6 3 2 2 2 - 3 3 - 1 	ÿ C 2 4 H 2 1 F 2 N O 3    9 1 1 4 4      F a r r e r o l ÿ2 4 2 1 1 - 3 0 - 1 	ÿ C 1 7 H 1 6 O 5 	   4 4 5 8 5 8      f e r u l i c   a c i d ÿ1 1 3 5 - 2 4 - 6 	ÿ F G S / U G S ÿGW:NÐcÖSir	ÿ f i s e t i n   ÿ5 2 8 - 4 8 - 3 	ÿ 5 2 8 - 4 8 - 3  f o r m o n o n e t i n ÿC A S   :   4 8 5 - 7 2 - 3 	ÿ C 1 6 H 1 2 O 4 	 f o r s k o l i n  6 6 5 7 5 - 2 9 - 9     6 6 4 2 8 - 8 9 - 5  f u m i g a c l a v i n e   C 
+ 6 2 8 6 7 - 4 7 - 4 
+ C 2 2 H 2 5 N 3 O 3  3 7 9 . 5   g / m o l  	 G .   u r a l e n s i s           3 7 0      g a l l i c   a c i d ÿ1 4 9 - 9 1 - 7 	ÿ C 7 H 6 O 5  1 1 5 0 6 7      g a s t r o d i n ( 6 2 4 9 9 - 2 7 - 8 )  C 1 3 H 1 8 O 7  g e n i s t e i n ÿC A S ÿ4 4 6 - 7 2 - 0 	ÿ G e n t i o p i c r o s i d e ( 2 0 8 3 1 - 7 6 - 9 )  C 1 6 H 2 0 O 9 	   6 3 7 5 6 6      G e r a n i o l   ÿ1 0 6 - 2 4 - 1 	ÿ 4 4 2 7 9 3      G i n g e r o l ÿ2 3 5 1 3 - 1 4 - 6 	ÿ C 1 7 H 2 6 O 4  g i n s e n o s i d e   R b 1 ( 4 1 7 5 3 - 4 3 - 9 ) 	 C 5 4 H 9 2 O 2 3  G i n s e n o s i d e   R g 2 ÿ5 2 2 8 6 - 7 4 - 5 	ÿ	 C 4 2 H 7 2 O 1 3 	   6 3 4 4 7 0      g o m i s i n   A ÿ5 8 5 4 6 - 5 4 - 6 	ÿ C 2 3 H 2 8 O 7 # G r i f f i p a v i x a n t h o n e ÿC A S ÿ2 1 9 6 4 9 - 9 5 - 3 	ÿ	 	 C 3 6 H 2 8 O 1 2     9    9    9 \ 	 h e   f e t a l   h e m o g l o b i n   i n d u c e r   a g e n t   3 - ( 1 , 3 - d i o x o i s o i n d o l i n - 2 - y l )   b e n z y l   n i t r a t e     ( 1 2 5 2 1 8 - 6 1 - 3 )    M  O  	 C 2 0 H 1 7 N O 5  h e m a t o x y l i n ÿ8 0 0 5 - 3 3 - 2 	ÿ 3 0 2 . 2 8   g / m o l  H e p a r i n ÿ9 0 0 5 - 4 9 - 6 	ÿ C 2 6 H 4 2 N 2 O 3 7 S 5    1 0 7 4 8      h e r n i a r i n ÿ5 3 1 - 5 9 - 9 	ÿ C 1 0 H 8 O 3  7 2 2 8 1      h e s p e r e t i n ÿ5 2 0 - 3 3 - 2 	ÿ h e s p e r i d i n ÿC A S ÿ  5 2 0 - 2 6 - 3 )          C 2 8 H 3 4 O 1 5             	 5 3 1 8 0 3 9      h e x a h y d r o c u r c u m i n ÿ3 6 0 6 2 - 0 5 - 2 	ÿ C 2 1 H 2 6 O 6  h o m o p l a n t a g i n i n ÿC A S : 1 7 6 8 0 - 8 4 - 1 	ÿ	 C 2 2 H 2 2 O 1 1  h u m u l u s   f l a v o n o i d s ÿC A S ÿ*gåg0R	ÿ	 6 4 4 3 6 6 5     # H y d r o x y s a f f l o r   y e l l o w   A ÿ7 8 2 8 1 - 0 2 - 4 	ÿ	 C 2 7 H 3 2 O 1 6  H y p e r o s i d e ( C A S : 4 8 2 - 3 6 - 0 )  h y p o g a l l i c   a c i d  3 0 3 - 3 8 - 8 	   1 8 2 1 4 0      h y p o p h y l l a n t h i n ÿ3 3 6 7 6 - 0 0 - 5 	ÿ C 2 4 H 3 0 O 7  I c a r i i n ( 4 8 9 - 3 2 - 7 ) 	 C 3 3 H 4 0 O 1 5    1 0 2 1 2      i m p e r a t o r i n ÿ4 8 2 - 4 4 - 0 	ÿ I r i s i n ÿ4 9 1 - 7 4 - 7 	ÿ	 C 2 4 H 2 6 O 1 3 ' I s o c a l o l o n g i c   a c i d   ( I A ) ÿC A S ÿ4 0 7 3 7 - 9 2 - 6 	ÿ	 C 2 2 H 2 8 O 6   
+   6 2 5 1 2 7 0      i s o c o r d o i n ÿ5 2 6 0 1 - 0 5 - 5 	ÿ C 2 0 H 2 0 O 3  i s o c o r y n o x e i n e   ÿ5 1 0 1 4 - 2 9 - 0 	ÿ
+ C 2 2 H 2 6 N 2 O 4 B i s o p r o p y l   3 - ( 3 , 4 - d i h y d r o x y p h e n y l ) - 2 - h y d r o x y p r o p a n o a t e ÿ8 6 8 7 8 5 - 5 0 - 6 	ÿ 	 C 1 2 H 1 6 O 5     9    9    9  i s o r h a m n e t i n ÿ4 8 0 - 1 9 - 3 	ÿ C 1 6 H 1 2 O 7  3 1 6 . 2 6   g / m o l + i s o r h a m n e t i n - 3 - g l u c u r o n i d e ÿC A S ÿ3 6 6 8 7 - 7 6 - 0 	ÿ  	 	 C 2 2 H 2 0 O 1 3     9    9    9  I s o s t e v i o l ( 2 7 9 7 5 - 1 9 - 5 )  C 2 0 H 3 0 O 3  3 1 8 . 4   g / m o l  i s o t i r u m a l i n ( C A S : 1 1 9 7 3 6 - 7 2 - 0 )  C 2 2 H 2 4 O 7 
+ 2 4 7 2 1 0 3 1      J u j u b o s i d e   B ÿ5 5 4 6 6 - 0 5 - 2 	ÿ	 C 5 2 H 8 4 O 2 1  k a e m p f e r o l   ÿC A S ÿ5 2 0 - 1 8 - 3 	ÿ 2 8 6 . 2 4  k a u r e n o i c   a c i d ( 6 7 3 0 - 8 3 - 2 )  K o r e a n   p l u m ÿC A S : 7 0 2 6 6 - 4 8 - 7 	ÿ C 1 3 H 2 0 O  l u t e o l i n ÿ4 9 1 - 7 0 - 3 	ÿ 1 6 9 2 3 4      m a g n o l i n ÿ3 1 0 0 8 - 1 8 - 1 	ÿ M a m m e a   A / A A   c y c l o F ÿC A S ÿ*gåg0R	ÿ
+ 3 0 5 6 3 - 6 2 - 3 	   3 3 4 7 0 4      m a r m e s i n ÿ1 3 8 4 9 - 0 8 - 6 	ÿ C 1 4 H 1 4 O 4  m a r r u b i i n ÿC A S ÿ4 6 5 - 9 2 - 9 	ÿ 	 C 2 0 H 2 8 O 4     9    9    9  M e s a c o n i t i n e ÿ2 7 5 2 - 6 4 - 9 	ÿ
+ C 3 3 H 4 5 N O 1 1  6 3 1 . 7   g / m o l  n a r i n g e n i n ( 1 0 2 3 6 - 4 7 - 2 ) 	 C 2 7 H 3 2 O 1 4  5 8 0 . 5      n a r i n g e n i n ÿC A S ÿ4 8 0 - 4 1 - 1 	ÿÿ¡låg0R	ÿ
+   
+ C 1 5 H 1 2 O 5 	   4 4 2 4 3 1      N a r i r u t i n ÿ1 4 2 5 9 - 4 6 - 2 	ÿ N e f e r i n e ( 2 2 9 2 - 1 6 - 2 ) 
+ C 3 8 H 4 4 N 2 O 6  o e n o t h e i n   B  1 0 4 9 8 7 - 3 6 - 2  o l e a n o l i c   a c i d ÿ5 0 8 - 0 2 - 1 	ÿ 4 5 6 . 7   g / m o l  O r i e n t i n ÿ2 8 6 0 8 - 7 5 - 5 ) 	 C 2 1 H 2 0 O 1 1  4 4 8 . 4   g / m o l  O x y m a t r i n e ÿC A S ÿ1 6 8 3 7 - 5 2 - 8 	ÿ
+ 	 C 1 5 H 2 4 N 2 O 2     9    9    9   	 9  1 1 0 9 2      p a e o n o l ÿ5 5 2 - 4 1 - 0 	ÿ P a n a x   n o t o g i n s e n g ÿ8 8 1 0 5 - 2 9 - 7 	ÿ N o t o g i n s e n o s i d e   F e ÿ8 8 1 0 5 - 2 9 - 7 	ÿ	 C 4 7 H 8 0 O 1 7  P a n t o p r a z o l e ÿC A S : 1 4 2 6 7 8 - 3 5 - 1 	ÿ C 1 6 H 1 5 F 2 N 3 O 4 S * P D - C 3 0 2   ÿ2 - h y d r o x y - 4 - m e t h o x y v a l e r o p h e n o n e 	ÿ+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+   5 2 8 1 5 2 6      p e t a s i n ÿ2 6 5 7 7 - 8 5 - 5 	ÿ C 2 0 H 2 8 O 3  P h l o m e o i c   A c i d ÿC A S ÿ1 3 8 4 9 - 9 1 - 7 	ÿ 3 5 8 9 0 1      p h y l l a n t h i n ÿ1 0 3 5 1 - 8 8 - 9 	ÿ C 2 4 H 3 4 O 6  P h y l l a n t h u s   n i r u r i    ÐcÖSir"" p h y t o e s t r o g e n ±- z e a r a l a n o l ÿC A S ÿ*gåg0R	ÿ p i c e a t a n n o l ÿ1 0 0 8 3 - 2 4 - 6 	ÿ C 1 4 H 1 2 O 4  p i c e a t a n n o l ÿ1 0 0 8 3 - 2 4 - 7 	ÿ C 1 4 H 1 2 O 5  p i n o c e m b r i n ÿC A S ÿ4 8 0 - 3 9 - 7 	ÿ C 1 5 H 1 2 O 4  P o n c i r i n ÿC A S ÿ1 4 9 4 1 - 0 8 - 3 	ÿ	 C 2 8 H 3 4 O 1 4  p r i n s e p i o l ( 8 2 6 6 7 - 9 9 - 0 )  3 9 0 . 4   g / m o l 1 p r i n s e p i o l - 4 - O - b e t a - D - g l u c o p y r a n o s i d e ÿ6 9 2 5 1 - 9 6 - 3 	ÿ	 C 2 6 H 3 2 O 1 1 ! p r o a n t h o c y a n i d i n s ÿC A S ÿ2 0 3 4 7 - 7 1 - 1 	ÿ	 C 3 0 H 2 6 O 1 3 8 P r o c y a n i d i n s ÿC A S ÿ2 0 3 4 7 - 7 1 - 1 	ÿSe:Na p p l e   P r o c y a n i d i n s ÿàeøvsQpenc	ÿ p r o g e s t e r o n e ÿ5 7 - 8 3 - 0 	ÿ= f&  2 5 7 6 3 0 - 5 0 - 5 
+ f&  7 5 3 4 9 7 - 2 0 - 0 
+ f&  5 7 - 8 3 - 0 
+ f&  8 0 2 3 - 1 3 - 0 
+ f&  8 0 1 2 - 3 2 - 6  C 2 1 H 3 0 O 2  3 1 4 . 5   g / m o l  p r o p o f o l ÿC A S : 2 0 7 8 - 5 4 - 8 )  C 1 2 H 1 8 O  P r u n u s   m u m e % P s o r a l e a   c o r y l i f o l i a   e x t r a c t ÿÐcÖSirÿ^USSO	ÿ q u e r c e t i n ( 1 1 7 - 3 9 - 5 )  3 0 2 . 2 3   g / m o l  q u e r c e t i n ( 1 1 7 - 3 9 - 6 )  C 1 5 H 1 0 O 8  3 0 2 . 2 4   g / m o l  q u e r c e t i n ( 1 1 7 - 3 9 - 7 )  C 1 5 H 1 0 O 9  3 0 2 . 2 5   g / m o l 1 q u e r c e t i n   3 , 3  4  7 - t e t r a m e t h y l ÿR e t u s i n ) ÿ1 2 4 5 - 1 5 - 4 	ÿ   f&  4 8 0 - 8 6 - 4 
+ f&  1 2 4 5 - 1 5 - 4  3 5 8 . 3   g / m o l ' Q u e r c e t i n   3 , 7 - d i m e t h y l   e t h e r ÿ2 0 6 8 - 0 2 - 2 	ÿ 3 3 0 . 2 9   g / m o l $ f&  7 3 1 2 3 - 1 0 - 1 
+ f&  7 4 8 9 3 - 8 1 - 5 
+ f&  1 1 7 - 3 9 - 5 %   f&  7 3 1 2 3 - 1 0 - 1 
+ f&  7 4 8 9 3 - 8 1 - 5 
+ f&  1 1 7 - 3 9 - 5  q u e r c e t i n ( 1 1 7 - 3 9 - 8 )  q u e r c e t i n ( 1 1 7 - 3 9 - 9 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 0 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 1 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 2 ) $ q u e r c e t i n - 3 2 - s u l f a t e ÿC A S ÿ6 2 3 6 9 - 2 8 - 2 	ÿ
+ 6 0 8 8 9 - 0 5 - 6 
+ 	 C 1 5 H 1 0 O 1 0 S     9    9    9 	  ' q u e r c e t i n - 3 - g l u c u r o n i d e ÿC A S ÿ2 2 6 8 8 - 7 9 - 5 	ÿ
+ C 2 1 H 1 8 O 1 3   H R - ( - ) - 3 ' - h y d r o x y - 2 , 4 , 5 - t r i m e t h o x y d a l b e r g i q u i n o l   i s o l a t e d ÿC A S ÿ9 1 4 7 8 - 1 3 - 6 	ÿ
+ C 1 5 H 2 0 N 2 O 5 = R A ÿ  n e w   c o n s t i t u e n t s   l a b e l e d   f r o m   P h l o m i s   b r a c t e o s a 	ÿÿC A S ÿ*gåg0R	ÿ= R B ÿ  n e w   c o n s t i t u e n t s   l a b e l e d   f r o m   P h l o m i s   b r a c t e o s a 	ÿÿC A S ÿ*gåg0R	ÿ r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 0 	ÿ C 1 4 H 1 2 O 3  r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 1 	ÿ r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 2 	ÿ r h o i f o l i n ÿ1 7 3 0 6 - 4 6 - 6 	ÿ	 C 2 7 H 3 0 O 1 4  5 7 8 . 5   g / m o l ! R u m e x   a c e t o s a   L ÿC A S : 1 6 8 1 0 5 4 - 6 0 - 3 	ÿ C 2 3 H 3 3 N 3 O 1 2 S  r u t i n ( 1 5 3 - 1 8 - 4 ) u f&  1 1 5 8 8 8 - 4 0 - 9 
+ f&  1 4 1 6 - 0 1 - 9 
+ f&  1 4 6 5 2 5 - 6 6 - 8 
+ f&  1 5 8 5 6 0 - 0 9 - 9 
+ f&  1 6 4 5 3 5 - 4 3 - 7 
+ f&  1 8 4 4 9 - 5 0 - 8 
+ f&  4 8 1 9 7 - 7 2 - 4 
+ f&  5 6 7 6 4 - 9 9 - 9 
+ f&  1 5 3 - 1 8 - 4 	 C 2 7 H 3 0 O 1 6  6 1 0 . 5      r u t i n ( 1 5 3 - 1 8 - 5 ) 	 C 2 7 H 3 0 O 1 7  6 1 0 . 6    r u t i n ( 1 5 3 - 1 8 - 6 ) v   f&  1 1 5 8 8 8 - 4 0 - 9 
+ f&  1 4 1 6 - 0 1 - 9 
+ f&  1 4 6 5 2 5 - 6 6 - 8 
+ f&  1 5 8 5 6 0 - 0 9 - 9 
+ f&  1 6 4 5 3 5 - 4 3 - 7 
+ f&  1 8 4 4 9 - 5 0 - 8 
+ f&  4 8 1 9 7 - 7 2 - 4 
+ f&  5 6 7 6 4 - 9 9 - 9 
+ f&  1 5 3 - 1 8 - 4 	 C 2 7 H 3 0 O 1 8  6 1 0 . 7    1 5 9 2 7 8      s a l i d r o s i d e ÿ1 0 3 3 8 - 5 1 - 9 	ÿ C 1 4 H 2 0 O 7  1 5 9 2 7 9      s a l i d r o s i d e ÿ1 0 3 3 8 - 5 1 - 1 0 	ÿ C 1 4 H 2 0 O 8 
+ 2 5 5 6 4 8 3 1     1 s a l v i n   A ÿågN0RC A S TáOo`	ÿ  a n d   m a s l i n i c   a c i d ÿ2 6 5 6 3 - 6 8 - 8 	ÿ C 3 0 H 4 8 O 4  S c l a r e o l ÿ5 1 5 - 0 3 - 7 	ÿ 5 1 5 - 0 3 - 7  C 2 0 H 3 6 O 2  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 8     	ÿ	 C 2 1 H 1 8 O 1 2  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 9     	ÿ	 C 2 1 H 1 8 O 1 3  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 1 0     	ÿ	 C 2 1 H 1 8 O 1 4 , 4 - h y d r o x y - 3 - ( i s o p e n t e n - 2 - y l ) - a c e t o p h e n o x i m e    s h i k o n i n / a l k a n n i n ÿ8 5 2 5 1 - 5 8 - 7 	ÿ
+ 5 4 9 5 2 - 4 3 - 1  C 1 6 H 1 6 O 5  2 8 8 . 2 9   g / m o l  5 2 1 3      S i l y m a r i n ÿ6 5 6 6 6 - 0 7 - 1 	ÿ	 C 2 5 H 2 2 O 1 0  5 4 4 5 4      S i m v a s t a t i n ÿ7 9 9 0 2 - 6 3 - 9 	ÿ C 2 5 H 3 8 O 5  S i n o m e n i n e ÿ1 1 5 - 5 3 - 7 	ÿ	 C 1 9 H 2 3 N O 4  S i n o m e n i n e ÿ1 1 5 - 5 3 - 8 	ÿ	 C 1 9 H 2 3 N O 5  t a m b u l i n   ÿ5 7 1 - 7 2 - 2 )  1 2 6 0 7 1      t a n s h i n o l ÿ1 8 9 2 9 0 - 3 0 - 0 	ÿ C 1 8 H 1 6 O 4  T a r t a r y   b u c k w h e a t ( 8 9 9 5 9 - 0 9 - 8 )  N9SMN^USSO ÛVYNpÝ]êUn T e t r a - a c e t y l a j u g a s t e r o n e   C    1 4 2 9 6      T e t r a m e t h y l p y r a z i n e ÿ1 1 2 4 - 1 1 - 4 	ÿ C 8 H 1 2 N 2  t i l i a c o r i n i n e   1 2 ' - O - a c e t a t e  T S C ( 5 9 1 2 2 3 0 - 9 9 - 8 ) ÿ^STirÿ:N÷mTir	ÿ C 2 0 H 2 2 N a 2 O 4  U v a o l ÿC A S ÿ5 4 5 - 4 6 - 0 	ÿ   1 1 8 3      V a n i l l i n ÿ1 2 1 - 3 3 - 5 	ÿ C 8 H 8 O 3    6 2 3 4 8      v a n i l l y l   a l c o h o l ÿ4 9 8 - 0 0 - 0 	ÿ C 8 H 1 0 O 3  V e r a p a m i l ÿ5 2 - 5 3 - 9 	ÿ
+ C 2 7 H 3 8 N 2 O 4  w o o d f o r d i n   C  1 2 6 3 4 7 - 6 3 - 5  x a n t h o a n g e l o l   B ÿ1 3 2 9 9 8 - 8 1 - 3 	ÿ C 2 5 H 2 8 O 5  4 0 8 . 5   g / m o l  X a n t h o a n g e l o l   E ÿ1 3 2 9 9 8 - 8 4 - 6 	ÿ C 2 1 H 2 2 O 6  3 7 0 . 4   g / m o l  x a n t h o a n g e l o l   F ÿ2 6 5 6 5 2 - 7 1 - 9 	ÿ C 2 6 H 3 0 O 4  4 0 6 . 5   g / m o l  x a n t h o a n g e l o l ÿ6 2 9 4 9 - 7 6 - 2 	ÿ C 2 5 H 2 8 O 4  3 9 2 . 5   g / m o l 	 5 4 7 0 1 8 7      z e r u m b o n e ( 4 7 1 - 0 5 - 6 )  ±- N F ÿ6 0 4 - 5 9 - 1 	ÿ 9 0 - 1 5 - 3  ²- N F ÿ6 0 5 1 - 8 7 - 2 	ÿ 1 3 5 - 1 9 - 3  9 - t e t r a h y d r o c a n n a b i n o l  µ- v i n i f e r i n 
+ 6 2 2 1 8 - 0 8 - 0  µ- v i n i f e r i n ÿ6 2 2 1 8 - 0 8 - 0 	ÿ C   H   O   4 5 4 . 4 7 8   g · m o l ""¹  G i n s e n o s i d e   R d ( C A S : 5 2 7 0 5 - 9 3 - 8 ) 	 C 4 8 H 8 2 O 1 8  9 4 7 . 2    	 2 0 ÿR 	ÿ- R g   3 ( C A S : 3 8 2 4 3 - 0 3 - 7 )            
+ 	 2 0 ÿS 	ÿ- R g   3             	 G i n s e n o s i d e   R g 3 ÿC A S ÿ1 4 1 9 7 - 6 0 - 5 	ÿ              g i n s e n o s i d e s ( C A S : 7 4 7 4 9 - 7 4 - 9 )  C 3 0 H 5 2 O 2  	 G i n s e n o s i d e   R g 1 ÿC A S ÿ2 2 4 2 7 - 3 9 - 0 	ÿ             	 C 4 2 H 7 2 O 1 4  8 0 1 . 0   
+ 2 1 5 9 9 9 2 4      G i n s e n o s i d e   R g 2 ( C A S : 5 2 2 8 6 - 7 4 - 5 )  G i n s e n o s i d e   R b 1 ( C A S : 4 1 7 5 3 - 4 3 - 9 ) $ G i n s e n o s i d e   R e   5 2 2 8 6 - 5 9 - 6   5 1 5 4 2 - 5 6 - 4  4 4 1 9 3 4     "" N o t o g i n s e n o s i d e   R 1 ( C A S : 8 0 4 1 8 - 2 4 - 2 ) 
+ C 4 7 H 8 0 O 1 8    N o t o g i n s e n o s i d e   F e   8 8 1 0 5 - 2 9 - 7  9 1 7 . 1   
+ 9 1 9 7 3 8 1 4     $ 	 N o t o g i n s e n o s i d e   F t 1 ÿC A S ÿ1 5 5 6 8 3 - 0 0 - 4 	ÿ           #     C 4 7 H 8 0 O 1 7      9 1 7 . 1 * 	 A s t r a g a l o s i d e   I V ÿC A S ÿ8 3 2 0 7 - 5 8 - 3 	ÿ8 4 6 8 7 - 4 3 - 4                  9 2 0 4 3 1 8 3        b a c o s i d e   A ( C A S : 1 1 0 2 8 - 0 0 - 5 ) 
+   C 4 1 H 6 8 O 1 3    2 1 5 9 9 4 4 2        b a c o p a s i d e   `!( C A S :   3 8 2 1 4 8 - 4 7 - 2 )    C 4 6 H 7 4 O 2 0 S      9 7 9 . 1 	   4 4 1 8 8 7      G i t o g e n i n ( C A S : 5 1 1 - 9 6 - 6 ) 	   C 2 7 H 4 4 O 4  	 A n e m o s i d e   A 3 ÿC A S : 1 2 9 7 2 4 - 8 4 - 1 )        	 C 4 1 H 6 6 O 1 2 	   1 1 9 2 4 5      D i o s c i n ( C A S : 1 9 0 5 7 - 6 0 - 4 ) 
+ C 4 5 H 7 2 O 1 6    J u j u b o s i d e   B   ( C A S : 5 5 4 6 6 - 0 5 - 2 )  1 0 4 5 . 2    S c o p o l e t i n ( C A S : 9 2 - 6 1 - 5 )  C 1 0 H 8 O 4  S e d a n o l i d e ( C A S : 6 4 1 5 - 5 9 - 4 )  C 1 2 H 1 8 O 2  6 1 3 6 1    B u t y l p h t h a l i d e ( C A S : 6 0 6 6 - 4 9 - 5 )  C 1 2 H 1 4 O 2  S e n k y u n o l i d e   A ( C A S : 6 3 0 3 8 - 1 0 - 8 )  C 1 2 H 1 6 O 2  L i g u s t i l i d e ( C A S : 4 4 3 1 - 0 1 - 0 )  B o r n e o l ( C A S : 1 0 3 8 5 - 7 8 - 1 )  S e n k y u n o l i d e   H ( C A S : 9 4 5 9 6 - 2 7 - 7 )  C 1 2 H 1 6 O 4  A n g e l i c i d e ( C A S : 9 2 9 3 5 - 9 4 - 9 )  C 2 4 H 2 8 O 4 % I s o c h l o r o g e n i c   a c i d   C ( C A S : 3 2 4 5 1 - 8 8 - 0 ) 	 C 2 5 H 2 4 O 1 2  V a n i l l i n ( C A S :   1 2 1 - 3 3 - 5 ) "" T e t r a m e t h y l p y r a z i n e ( C A S : 1 1 2 4 - 1 1 - 4 ) & I s o c h l o r o g e n i c   a c i d   B ( C A S :   1 4 5 3 4 - 6 1 - 3 ) 
+ 8 6 2 9 3 4 2 5      K a n s h o n e   H ( C A S : 1 4 4 5 9 5 2 - 3 3 - 9 )  C 1 5 H 2 0 O  1 6 5 5 3 6      ( - ) - A r i s t o l o n e ( C A S : 2 5 2 7 4 - 2 7 - 5 )  N a r d o s i n o n e ( C A S : 2 3 7 2 0 - 8 0 - 1 )  C 1 5 H 2 2 O 3 	 1 0 4 6 6 5 6 4    K a n s h o n e   A ( C A S : 1 1 5 3 5 6 - 1 8 - 8 )  C 1 5 H 2 2 O 2  i s o c o r y n o x e i n e ÿC A S : 5 1 0 1 4 - 2 9 - 0 )  r h y n c h o p h y l l i n e ÿC A S : 7 6 - 6 6 - 4 ) 
+ C 2 2 H 2 8 N 2 O 4 + G e i s s o s c h i z i n e   m e t h y l   e t h e r ( C A S : 6 0 3 1 4 - 8 9 - 8 ) 
+ C 2 2 H 2 6 N 2 O 3  h i r s u t i n e ( C A S : 7 7 2 9 - 2 3 - 9 ) 
+ H i r s u t e i n e  c o r y n o x e i n e  i s o r h y n c h o p h y l l i n e  7 6 9 5 5    	 5 - H Y D R O X Y O X I N D O L E ÿ3 4 1 6 - 1 8 - 0 	ÿ  !  :  !  :  	 C 8 H 7 N O 2      ;  %  ;  %  ;  1 , 2 - B e n z e n e d i o l ( 1 2 0 - 8 0 - 9 )  C 6 H 6 O 2 ' 6 - H y d r o x y - 3 , 4 - d i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e  C 9 H 9 N O 2  	 1 6 3 . 1 7        $ & 6 - h y d r o x y q u i n o l i n - 2 ( 1 H ) - o n e   1 9 3 1 5 - 9 3 - 6  C 9 H 7 N O 2 2 5 - H y d r o x y - 3 , 4 - d i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e   3 0 3 8 9 - 3 3 - 4  	 C 9 H 9 N O 2      <  &  <  &  <  2 , 8 - Q u i n o l i n e d i o l   1 5 4 5 0 - 7 6 - 7  O x i n d o l e   5 9 - 4 8 - 3  C 8 H 7 N O & 3 , 4 - D i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e   5 5 3 - 0 3 - 7  C 9 H 9 N O  	 1 4 7 . 1 7        $  b e n z o i c   a c i d   6 5 - 8 5 - 0  	 1 2 2 . 1 2        $ : 8 - H y d r o x y - 3 , 4 - d i h y d r o - 2 - q u i n o l i n o n e   5 2 7 4 9 - 5 0 - 5   
+ 5 2 7 4 9 - 5 0 - 5 . 8 - H y d r o x y q u i n o l i n e - 2 - c a r b o x y l i c   a c i d   1 5 7 1 - 3 0 - 8  C 1 0 H 7 N O 3  2 - H y d r o x y q u i n o l i n e    C 9 H 7 N O  ¹UIUn Bg¯s §x{| >u{| C h e n o d e o x y c h o l i c   a c i d   4 7 4 - 2 5 - 9  C 2 4 H 4 0 O 4  U R S O D E O X Y C H O L I C   A C I D   1 2 8 - 1 3 - 2  D e o x y c h o l i c   a c i d   8 3 - 4 4 - 3  B a i c a l e i n   4 9 1 - 6 7 - 8  	 C 1 5 H 1 0 O 5   &  <  &  <  &  <  B a i c a l i n   2 1 9 6 7 - 4 1 - 9 	 	 C 2 1 H 1 8 O 1 1   %  ;  %  ;  %  ; , O r o x y l i n   A   7 - O - b e t a - D - g l u c u r o n i d e   3 6 9 4 8 - 7 6 - 2 	 	 C 2 2 H 2 0 O 1 1   %  ;  %  ;  %  ;  W o g o n o s i d e   5 1 0 5 9 - 4 4 - 0 	 C 2 2 H 2 0 O 1 1  L a g o c h i l i n   2 3 5 5 4 - 8 1 - 6  C 2 0 H 3 6 O 5  G a l b i n i c   A c i d   5 6 6 9 1 - 8 8 - 4 	 	 C 2 0 H 1 4 O 1 1   %  ;  %  ;  %  ;  t a u r o d e o x y c h o l i c   a c i d     5 1 6 - 5 0 - 7 
+ 	 C 2 6 H 4 5 N O 6 S   %  ;  %  ;  %  ; 	 % $ 1 , 2 - B e n z e n e d i c a r b o x y l i c   a c i d   8 4 - 7 4 - 2  	 C 1 6 H 2 2 O 4   %  ;  %  ;  %  ;  ½ R e h m a p i c r o s i d e   1 0 4 0 5 6 - 8 2 - 8  	 C 1 6 H 2 6 O 8   %  ;  %  ;  %  ;  C h r y s o p h a n i c   a c i d     4 8 1 - 7 4 - 3  	 C 1 5 H 1 0 O 4   %  ;  %  ;  %  ;  L i m o n e x i c   a c i d   9 9 0 2 6 - 9 9 - 0 	 	 C 2 6 H 3 0 O 1 0   &  <  &  <  &  <  A l p h a - p i n e n e   8 0 - 5 6 - 8  	 C 1 0 H 1 6   &  <  &  <  I s o c h l o r o g e n i c a c i d   A   2 4 5 0 - 5 3 - 5  C r y p t o c h l o r o g e n i c   a c i d   9 0 5 - 9 9 - 7  P r o t o c a t e c h u i c   a c i d  	 C 7 H 6 O 4   &  <  &  <  &  <  V a n i l l i c   a c i d   1 2 1 - 3 4 - 6  	 C 8 H 8 O 4   &  <  &  <  &  <  N e o c h l o r o g e n i c   a c i d   9 0 6 - 3 3 - 2 * S e n k y u n o l i d e   I     
+ s e n k y u n o l i d e   I 
+ 9 4 5 9 6 - 2 8 - 8  S u c c i n i c   a c i d   1 1 0 - 1 5 - 6  C 4 H 6 O 4 ",,wistar大鼠,主动脉环,NO/cGMP,内皮依赖性,,,229.08670000000001,1737.8,
+104,Compound 104,,64982,黄酮类,,,,SD大鼠,,,内皮依赖性,,1.6E-2,,,
+105,Compound 105,,3083848,香豆素类,,,186.164,SD大鼠,胸主动脉,,内皮依赖性,,,3.4832999999999998,,
+106,Compound 106,,3083848,香豆素类,,,186.164,SD大鼠,胸主动脉,,内皮依赖性,,,3.4832999999999998,,
+107,Compound 107,,,其他类,2.33644298800359e-309,,,wistar大鼠,胸主动脉,,内皮依赖性,,,提取物,,
+108,Compound 108,,2353,生物碱类,,,,SD大鼠,肠系膜动脉,,内皮依赖性,,,1.48,4.41,
+109,Compound 109,,5757,其他类,,,272.382,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,5.0099999999999997E-3,,
+110,Compound 110,,247,生物碱类,,,117.146,SD大鼠,,,,,,,,45540
+111,Compound 111,,64971,萜类,,C30H48O3,456.7,SD大鼠,胸主动脉,,内皮依赖性,,,2.4500000000000002,,
+112,Compound 112,,64971,萜类,,C30H48O3,456.7,SD大鼠,胸主动脉,,内皮依赖性,,,1.67,,
+113,Compound 113,,64971,萜类,,C30H48O3,456.7,SD大鼠,胸主动脉,,内皮依赖性,,,1.58,,
+114,Compound 114,,73384,酚类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,41.07,,
+115,Compound 115,,2008661,其他类,,,,Wistar大鼠,胸主动脉,,内皮依赖性,,,无分子量,,
+116,Compound 116,,5497136,其他类,,,,wistar大鼠,胸主动脉,,内皮非依赖性,,,17.3,,
+117,Compound 117,,689043,酚酸类,,,215.245,Wistar大鼠,胸主动脉,,内皮依赖性,,,400,,
+118,Compound 118,,5495848,其他类,,,378.418,,胸主动脉,NO/cGMP,内皮依赖性,,14.79,,,
+119,Compound 119,,,其他类,2.33644298800359e-309,,,,胸主动脉,NO/cGMP,内皮依赖性,,17.38,,,
+120,Compound 120,,5280448,黄酮类,,C16H12O5,,SD大鼠,胸主动脉,,非内皮依赖性,,,34.67,53.7,
+121,Compound 121,,641785,黄酮类,,C16H14O4,270.28,SD大鼠,肠系膜动脉,Ca2+,,,9.8000000000000007,9.3000000000000007,11.5,
+122,Compound 122,,641785,黄酮类,,C16H14O4,270.28,SD大鼠,肠系膜动脉,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,9.8000000000000007,9.3000000000000007,11.5,
+123,Compound 123,,641785,黄酮类,,C16H14O4,270.28,SD大鼠,肠系膜动脉,,内皮依赖性,,9.8000000000000007,9.3000000000000007,11.5,
+124,Compound 124,,439224,其他类,,,,SD大鼠,,,非内皮依赖性,,12900,,,
+125,Compound 125,,10364,酚类,,C10H14O,150.218,Wistar大鼠,主动脉环,Ca2+,内皮非依赖性,"Vasorelaxant effects of the monoterpenic phenol isomers, carvacrol and thymol, on rat isolated aorta",,145.4,78.8,
+126,Compound 126,,10364,酚类,,C10H14O,150.218,Wistar大鼠,胸主动脉,,内皮依赖性,,,,9.9999999999999995E-7,
+127,Compound 127,,6419835,酚类,,,,wistar大鼠,胸主动脉,,内皮依赖性,,,无数据,,
+128,Compound 128,,5458190,生物碱类,,,336.427,SD大鼠,,Ca2+,内皮依赖性,,,3,6,
+129,Compound 129,,5458190,生物碱类,,,336.427,SD大鼠,主动脉环,,内皮非依赖性,,,28,34,
+130,Compound 130,,5283565,其他类,,,780.255,大鼠,主动脉环,,内皮依赖性,,,,,5.4550000000000001
+131,Compound 131,,637157,其他类,,,423.588,SD大鼠,主动脉环,,,,,无数据,,
+132,Compound 132,,1794427,苯丙素类,,,354.31,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,0.47,,
+133,Compound 133,,,苯丙素类,4.227925527397988e-307,,,SD大鼠,胸主动脉,,内皮依赖性,,,无数据,,
+134,Compound 134,,2719,阳性药,,,319.872,大鼠,胸主动脉,,,,,4.1109999999999998,,
+135,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,15.849,
+136,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,wistar大鼠,主动脉,NO/cGMP,内皮依赖性,,,,,16
+137,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,SD大鼠,主动脉,,,,,4.76,,
+138,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,SD大鼠,主动脉,,,,,4.76,6.38,
+139,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,,16
+140,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,SD大鼠,胸主动脉,,内皮非依赖性,,,4.8979999999999997,,
+141,chrysin,chrysin (480-40-0),,黄酮类,1081360,,,SD大鼠,胸主动脉,,,,,165,,
+142,Compound 142,,637511,其他类,,C9H8O,132.159,猪,冠状动脉,Ca2+,内皮非依赖性,,173.78,,602.54999999999995,
+143,Compound 143,,637511,其他类,,C9H8O,132.159,SD大鼠,胸主动脉,Ca2+,内皮非依赖性,,,87.77,,
+144,Compound 144,,637511,其他类,,C9H8O,132.159,Wistar大鼠,,Ca2+,内皮非依赖性,,,,334,
+145,Compound 145,,638011,萜类,,,152.233,,胸主动脉,NO/cGMP,内皮依赖性,,,1420,,
+146,Compound 146,,656832,阳性药,,,,wistar大鼠,胸主动脉,,内皮非依赖性,,,780,,
+147,Compound 147,,192321,其他类,,,480.687,Wistar大鼠,胸主动脉,,,,,5.7089999999999996,,
+148,Compound 148,,5281233,其他类,,,976.965,SD大鼠,胸主动脉,,内皮依赖性,,,1195,,
+149,Compound 149,,117443,苯丙素类,,,356.369,Wistar大鼠,,,内皮依赖性,,,4.218,,
+150,Compound 150,,969516,酚类,,,368.38,大鼠,肠系膜动脉,,,,,9.33,47.86,
+151,Compound 151,,260439,生物碱类,,,402.7,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,无数据,,
+152,Compound 152,,260439,其他类,,,402.7,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,531,
+153,Compound 153,,260439,其他类,,,402.7,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,233,
+154,Compound 154,,260439,其他类,,,402.7,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,185,,
+155,Compound 155,,5281708,黄酮类,,C15H10O4,254.238,SD大鼠,基底动脉,K+,内皮非依赖性,Mechanisms of the cerebral vasodilator actions of isoflavonoids of Gegen on rat isolated basilar artery,20,,,
+156,Compound 156,,9887712,阳性药,,,408.873,大鼠,冠状动脉,,,,70.2,,50.12,
+157,Compound 157,,6255462,其他类,,,242.27,SD大鼠,胸主动脉,,内皮依赖性,,,18.5,,
+158,Compound 158,,6255462,其他类,,,242.27,SD大鼠,胸主动脉,,内皮依赖性,,,18.5,,
+159,Compound 159,,,黄酮类,2.33644298800359e-309,,,,主动脉环,,内皮依赖性,,,,,21.46
+160,Compound 160,,5316743,其他类,,,278.3,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,无数据,,
+161,Compound 161,,119245,皂苷类,,,869,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,3450,,
+162,Compound 162,,99474,其他类,,,414.6,wistar 大鼠,,,内皮依赖性,,,330,,
+163,Compound 163,,5281612,黄酮类,,,300.263,猪,冠状动脉,,内皮非依赖性,,0.79400000000000004,,2.512,
+164,Compound 164,,1119,其他类,,,64.07,wistar 大鼠,,,非内皮依赖性,,,无数据,,
+165,Compound 165,,未搜到,萜类,,,288.47,Wistar大鼠,胸主动脉,Ca2+,内皮依赖性,,,,0.501,
+166,Compound 166,,445580,其他类,,,,,主动脉,,内皮依赖性,,,,19.079999999999998,
+167,Compound 167,,5281771,其他类,,,786.7,SD大鼠,胸主动脉,,内皮依赖性,,,87.89,,
+168,Compound 168,,5281771,其他类,,,786.7,SD大鼠,胸主动脉,,内皮依赖性,,,,239,
+169,Compound 169,,,其他类,2.33644298800359e-309,,,Wistar大鼠,主动脉环,Ca2+,,,,,1.9950000000000001,
+170,Compound 170,,65064,酚类,,C22H18O11,458.4 g/mol,,,,内皮依赖性,,,,,无数据
+171,Compound 171,,440735,其他类,,,288.252,Wistar大鼠,,Ca2+,内皮非依赖性,,,,296,61.1
+172,Compound 172,,,其他类,2.33644298800359e-309,,,SD大鼠,主动脉环,,内皮依赖性,,,提取物,,
+173,Compound 173,,101761,萜类,,,,wistar大鼠,胸主动脉,,内皮依赖性,,,11.68,,
+174,Compound 174,,,其他类,2.33644298800359e-309,,,大鼠,主动脉环,,内皮非依赖性,,,1.05,1.45,
+175,Compound 175,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,,非单体
+176,Compound 176,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,非单体,
+177,Compound 177,,,其他类,2.6702108571662013e-307,,,Wistar大鼠,肠系膜动脉,,,,,非单体,,
+178,Compound 178,,44437692,其他类,,,388.37,Wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,27.54,,
+179,Compound 179,,8467,酚酸类,,C9H10O3,166.174,猪,冠状动脉,Ca2+,内皮非依赖性,,13.325（冠状动脉）/691.831（基底动脉）,,323.59399999999999,
+180,Compound 180,,,酚类,未找到,,,wistar大鼠,主动脉环,,内皮依赖性,,,,,3.02
+181,Compound 181,,325601,苯丙素类,,,386.4,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,27.663,,
+182,Compound 182,,97214,黄酮类,,C19H18O7,358.342,SD大鼠,主动脉环,,,,,0.219,0.63100000000000001,
+183,Compound 183,,150311,阳性药,,,409.425,SD大鼠,肠系膜动脉,,,,16.5,,,
+184,Compound 184,,91144,黄酮类,,,300.306,SD大鼠,主动脉环,Ca2+,内皮非依赖性,,,35.94,14.02,
+185,Compound 185,,445858,酚酸类,,C10H10O4,194.184,SD大鼠,胸主动脉,,内皮非依赖性,,,398.10700000000003,,
+186,Compound 186,,445858,酚酸类,,C10H10O4,194.184,SD大鼠,胸主动脉,,内皮依赖性,,,6638,,
+187,Compound 187,,,其他类,2.33644298800359e-309,,,Wistar大鼠,主动脉环,,内皮依赖性,,,提取物,,
+188,Compound 188,,5281614,黄酮类,,C15H10O6,286.24,SD大鼠,胸主动脉,,内皮依赖性,,,4.266,,
+189,Compound 189,,5281614,黄酮类,,C15H10O6,286.24,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,4.2657999999999996,,,
+190,Compound 190,,5280378,黄酮类,,,268.26,SD大鼠,胸主动脉,,,,,,190.99,34.67
+191,Compound 191,,2.6702108571662013e-307,萜类,,,,,,,,,,,,
+192,Compound 192,,403923,生物碱类,,,,SD大鼠,胸主动脉,,非内皮依赖性,,,1.58,5.62,
+193,Compound 193,,,其他类,2.33644298800359e-309,,,SD大鼠,主动脉环,,内皮依赖性,,,提取物,,
+194,Compound 194,,370,酚酸类,,,170.12,Wistar大鼠,胸主动脉,,内皮依赖性,,,2800,,
+195,Compound 195,,115067,其他类,,,286.278,Wistar大鼠,,Ca2+,内皮依赖性,,,61.6,,
+196,Compound 196,,115067,其他类,,,286.278,,,,,,,,,5938.28
+197,Compound 197,,115067,其他类,,,286.278,,,,,,,,,5938.28
+198,Compound 198,,5280961,黄酮类,,C15H10O5,270.237,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,1.5800000000000002E-2,,
+199,Compound 199,,88708,其他类,,,356.325,SD大鼠,胸主动脉,,,,,76.56,,
+200,Compound 200,,88708,其他类,,,356.325,SD大鼠,胸主动脉,,内皮非依赖性,,,,72.680000000000007,
+201,Compound 201,,637566,其他类,,C10H18O,154.249,Wistar大鼠,主动脉环,Ca2+,内皮非依赖性,,,6.7599999999999993E-2,,
+202,Compound 202,,637566,萜类,,C10H18O,154.249,SD大鼠,肠系膜动脉,Ca2+-eNOS通路,内皮依赖性,Nobiletin Relaxes Isolated Mesenteric Arteries by Activating the Endothelial Ca2+-eNOS Pathway in Rats,,16.34,,
+203,Compound 203,,442793,酚类,,,294.386,SD大鼠,,Ca2+,内皮依赖性,,,0.1079,,
+204,Compound 204,,9898279,皂苷类,,,1109.295,SD大鼠,主动脉环,,内皮依赖性,,6.14,,,
+205,Compound 205,,,皂苷类,,,785.013,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,,,无数据
+206,Compound 206,,634470,苯丙素类,,,416.464,SD大鼠,胸主动脉,,内皮非依赖性,,557.9,355.9,,
+207,Compound 207,,634470,苯丙素类,,,416.464,SD大鼠,胸主动脉,,内皮非依赖性,,557.9,355.9,,
+208,Compound 208,,634470,苯丙素类,,,416.464,大鼠,主动脉环,,,,557.9,355.9,,
+209,Compound 209,,60151566,其他类,,,652.6,,胸主动脉,NO/cGMP,内皮依赖性,,10.47,,,
+210,Compound 210,,,其他类,,,351.353,,胸主动脉,,,,,125.89,,
+211,Compound 211,,442514,黄酮类,,C16H14O6,,SD大鼠,胸主动脉,,内皮依赖性,,,24.29,,
+212,Compound 212,,60606,其他类,,,1134.93,Wistar大鼠,主动脉,,内皮依赖性,,,,,100
+213,Compound 213,,10748,香豆素类,,,176.169,Wistar大鼠,,Ca2+,内皮依赖性,,,7.0789999999999997,,
+214,Compound 214,,72281,黄酮类,,C16H14O6,302.279,Wistar大鼠,,Ca2+,内皮非依赖性,,,,58.41,62.8
+215,Compound 215,,10621,黄酮类,,,610.6,猪,冠状动脉,NO/cGMP,内皮依赖性,"Yu, Dong et al. “The relaxing effect of Poncirus fructus and its flavonoid content on porcine coronary artery.” <em>Laboratory Animal Research</em> 31 (2015): 33 - 39.",251.19,,,
+216,Compound 216,,10621,酚类,,,610.6,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,71.010000000000005,
+217,Compound 217,,5318039,酚类,,,374.427,Wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,3.87,95.12,
+218,Compound 218,,5318083,黄酮类,,,462.404,SD大鼠,,,,,无数据,,,
+219,Compound 219,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,无数据,,
+220,Compound 220,,6443665,黄酮类,,,612.533,SD大鼠,胸主动脉,,内皮依赖性,,,475.4,,
+221,Compound 221,,3.782897174923485e-309,其他类,13598.92,,,,,NO/cGMP,内皮依赖性,,,,无数据,
+222,Compound 222,,5281643,黄酮类,,C21H20O12,464.4,SD大鼠,胸主动脉,,内皮依赖性,,13.45,,90.38,
+223,Compound 223,,无数据,酚类,,,,Wistar大鼠,胸主动脉,,内皮依赖性,,,620,,
+224,Compound 224,,182140,苯丙素类,,,430.491,Wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,80.08,,
+225,Compound 225,,5318997,其他类,,,676.7,,冠状动脉,,内皮依赖性,,,,28.2,
+226,Compound 226,,10212,香豆素类,,C16H14O4,270.28,Wistar大鼠,,Ca2+,内皮依赖性,,,4.2,,
+227,Compound 227,,5281777,黄酮类,,,522.455,Wistar大鼠,胸主动脉,,内皮依赖性,,,100,105,
+228,Compound 228,,11740992,酚类,,,388.5,,胸主动脉,NO/cGMP,内皮依赖性,,7.0789999999999997,,,
+229,Compound 229,,6251270,黄酮类,,,308.371,,胸主动脉,,内皮非依赖性,,,,,450
+230,Compound 230,,3037448,生物碱类,,,382.453,SD大鼠,肠系膜动脉,,内皮非依赖性,,,5.0119999999999996,1.288,
+231,Compound 231,,44234503,其他类,,,240.25,SD大鼠,肠系膜动脉,,内皮依赖性,,,,,3.8899999999999997E-2
+232,Compound 232,,5281654,黄酮类,,,,,,,内皮依赖性,,,4.1689999999999996,,
+233,Compound 233,,5281654,黄酮类,,,,,肠系膜动脉,,内皮依赖性,,,1.585,,
+234,Compound 234,,5281654,黄酮类,,,,,主动脉,,内皮依赖性,,,12.59,,
+235,Compound 235,,5491630,黄酮类,,,492.4,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,56.234000000000002,,
+236,Compound 236,,99514,皂苷类,,,,wistar大鼠,胸主动脉,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,,,11.07,
+237,Compound 237,,,其他类,,,400.422,wistar大鼠,胸主动脉,,,,,14.125,,
+238,Compound 238,,24721031,其他类,,,1045.211,SD大鼠,,,内皮依赖性,,,8.3989999999999991,,
+239,Compound 239,,5280863,黄酮类,,C15H10O6,,猪,冠状动脉,,,,11.01,,,
+240,Compound 240,,5280863,黄酮类,,C15H10O6,,猪,冠状动脉,,内皮依赖性和非依赖性,,11.01,,,
+241,Compound 241,,5280863,黄酮类,,C15H10O6,,Wistar大鼠,胸主动脉,,内皮依赖性,,,580,,
+242,Compound 242,,73062,萜类,,C20H30O2,302.5,wistar大鼠,胸主动脉,,内皮非依赖性,,,59.65,93.44,
+243,Compound 243,,73062,萜类,,C20H30O2,302.5,wistar大鼠,胸主动脉,,内皮依赖性,,,51.286000000000001,50.119,
+244,Compound 244,,702,其他类,,,192.3,SD大鼠,胸主动脉,,,,,8.08,,
+245,Compound 245,,702,其他类,,,192.3,SD大鼠,主动脉环,,内皮依赖性,,,8.08,,
+246,Compound 246,,,黄酮类,1081360,,,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,,4.677（没找到用的试剂是什么）,,
+247,Compound 247,,,黄酮类,1081360,,,大鼠,胸主动脉,Ca2+,内皮非依赖性,,,12.81,56.57,
+248,Compound 248,,,黄酮类,1081360,,,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,10.715,
+249,Compound 249,,,黄酮类,1081360,,,wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,20.96,80.349999999999994,
+250,Compound 250,,,黄酮类,1081360,,,SD大鼠,胸主动脉,,内皮非依赖性,,,4.6769999999999996,,
+251,Compound 251,,,黄酮类,1081360,,,SD大鼠,胸主动脉,,内皮依赖性,,,110,,
+252,Compound 252,,,黄酮类,1081360,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,35.049999999999997,,
+253,Compound 253,,,黄酮类,1081360,,,SD大鼠,胸主动脉,,内皮依赖性,,,5.7539999999999996,,
+254,Compound 254,,,黄酮类,1081360,,,SD大鼠,主动脉环,,内皮依赖性,,25.85,,,
+255,Compound 255,,,黄酮类,1081360,,,SD大鼠,肠系膜动脉,,内皮依赖性,,,4.3651,,
+256,Compound 256,,169234,苯丙素类,,,416.464,SD大鼠,胸主动脉,,内皮依赖性,,,24.43,,
+257,Compound 257,,,香豆素类,,,,,胸主动脉,NO/cGMP,内皮依赖性,,14.79,,,
+258,Compound 258,,334704,香豆素类,,,246.259,SD大鼠,胸主动脉,,内皮非依赖性,,,,375.62,304.56
+259,Compound 259,,73401,其他类,,,332.4,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,10.829000000000001,,
+260,Compound 260,,441747,生物碱类,,,,Wistar大鼠,胸主动脉,,内皮依赖性,,,42,,
+261,Compound 261,,442428,黄酮类,,,,wistar大鼠,胸主动脉,,内皮非依赖性,,,71.2,72.400000000000006,
+262,Compound 262,,439246,黄酮类,,,272.25,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,59.8,,
+263,Compound 263,,442431,其他类,,,580.535,SD大鼠,肠系膜动脉,,内皮依赖性,,43,31.5,108.8,
+264,Compound 264,,159645,生物碱类,,,624.766,大鼠,胸主动脉,,内皮依赖性,,,1.175E-2,,
+265,Compound 265,,,酚类,,,,wistar大鼠,主动脉环,,内皮依赖性,,,,,3.62
+266,Compound 266,,10494,萜类,,C30H48O3,,wistar大鼠,胸主动脉,,内皮依赖性,,,6.77,,
+267,Compound 267,,5281675,其他类,,,,,主动脉,,"Q®vOV'`T^Q®vOV'`k ( - ) - E p i g a l l o c a t e c h i n - 3 - g a l l a t e   i n d u c e s   c o n t r a c t i o n   o f   t h e   r a t   a o r t a   b y   a   c a l c i u m   i n f l u x - d e p e n d e n t   m e c h a n i s m 	   4 4 2 9 1 6      wN0RSeÿXdô	g7 ÍySTirÿvQ-N$NÍy	g>fW _;m'`	ÿ Q®vOV'`ÿN O 	ÿT/ bìrËz'`v­ H y d r o a l c o h o l i c   e x t r a c t   a n d   p u r e   c o m p o u n d s   f r o m   S e n e c i o   n u t a n s   S c h .   B i p   ( C o m p o s i t a e )   i n d u c e   v a s o d i l a t i o n   i n   r a t   a o r t a   t h r o u g h   e n d o t h e l i u m - d e p e n d e n t   a n d   i n d e p e n d e n t   m e c h a n i s m s  ^ÞzN'`C a 2 + S;ÞnBR¸ W u ,   X i u - l i   e t   a l .    C a l c i u m   c h a n n e l   b l o c k i n g   a c t i v i t y   o f   c a l y c o s i n ,   a   m a j o r   a c t i v e   c o m p o n e n t   o f   A s t r a g a l i   R a d i x ,   o n   r a t   a o r t a .    < e m > A c t a   P h a r m a c o l o g i c a   S i n i c a < / e m >   2 7   ( 2 0 0 6 ) :   1 0 0 7 - 1 0 1 2 .  W K Y 'Y  	 V a s o d i l a t o r   A c t i v i t y   o f   t h e   E s s e n t i a l   O i l   f r o m   A e r i a l   P a r t s   o f   P e c t i s   b r e v i p e d u n c u l a t a   a n d   I t s   M a i n   C o n s t i t u e n t   C i t r a l   i n   R a t   A o r t a    ?   V  	   1 0 7 9 7 1      e N O S  *g~b0Rú V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e V a s c u l a r   a c t i v i t y   o f   a   n a t u r a l   d i t e r p e n e   i s o l a t e d   f r o m   C r o t o n   z a m b e s i c u s   a n d   o f   a   s t r u c t u r a l l y   s i m i l a r   s y n t h e t i c   t r a c h y l o b a n e 
+   6 4 5 5 1 5 6      B K C a Su [ 4 ] NpQ, H×_fk, í©\. ÑNCh÷ù['Y úW^¨R	v _\O(uÊSvQ\O(u:g6R[ J ] . [½_;SÑy'Yf[f[¥b, 2 0 1 6 , 5 1 ( 1 1 ) : 1 6 2 5 - 1 6 2 9 . D O I : 1 0 . 1 9 4 0 5 / j . c n k i . i s s n 1 0 0 0 - 1 4 9 2 . 2 0 1 6 . 1 1 . 0 1 6 . / [ 1 5 ] NpQ. ÑNCh÷ù['Y úW^¨R	 _\O(uÊSvQ\O(u:g6R¢c¨[ D ] . [½_;SÑy'Yf[, 2 0 1 6 .  M L C K / p - M L C 2 N P o l y   ïSb`Y  H G   u[²×S_cv  A C h   ñü[v@¡{ _ÿÙïSýN  O S   vÏQ\0pÇuTÆ~Þ&q¡N0M M P   vb`YåNÊS;N¨R	  E C   ¿~|SO¨RRf[v9eU	gsQ0CS h a h   W ,   Z h a o   Q ,   W a n g   S ,   Z h a n g   M ,   M a   H ,   G u a n   Y ,   Z h a n g   Y ,   L i u   Y ,   Z h u   C ,   W a n g   S ,   Z h a n g   X ,   D o n g   J ,   M a   H .   P o l y d a t i n   i m p r o v e s   v a s c u l a r   e n d o t h e l i a l   f u n c t i o n   b y   m a i n t a i n i n g   m i t o c h o n d r i a l   h o m e o s t a s i s   u n d e r   h i g h   g l u c o s e   c o n d i t i o n s .   S c i   R e p .   2 0 2 3   O c t   2 ; 1 3 ( 1 ) : 1 6 5 5 0 .   d o i :   1 0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 3 - 4 3 7 8 6 - 4",,,2.2799999999999998,,
+268,Compound 268,,114850,生物碱类,,,264.36,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,9980,,
+269,Compound 269,,11092,酚类,,C9H10O3,166.174,,,,,,,,912.01,
+270,Compound 270,,,皂苷类,,,917.128,SD大鼠,胸主动脉,,,,,非单体,,
+271,Compound 271,,4679,阳性药,,,383.37,SD大鼠,主动脉环,,,,,7.9000000000000001E-2,,
+272,Compound 272,,,其他类,,,,Wistar大鼠,肠系膜动脉,,,,,0.41010000000000002,316.22800000000001,
+273,Compound 273,,5281526,酚类,,,316.435,SD大鼠,主动脉环,Ca2+,内皮非依赖性,,,,3,
+274,Compound 274,,,萜类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,4.8 μg/mL（找不到分子量）,,
+275,Compound 275,,358901,苯丙素类,,,418.523,Wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,56.55,,
+276,Compound 276,,,其他类,,,,大鼠,胸主动脉,,内皮依赖性,,,提取物,,
+277,Compound 277,,,其他类,2.33644298800359e-309,,,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,10,,
+278,Compound 278,,667639,萜类,,,244.24,SD大鼠,胸主动脉,,内皮依赖性,,,2.4,,
+279,Compound 279,,667640,其他类,,,245.24,SD大鼠,胸主动脉,,内皮依赖性,,,2.4,,
+280,Compound 280,,68071,黄酮类,,,256.25,SD大鼠,胸主动脉,,,,,,30.2,42.658000000000001
+281,Compound 281,,442456,黄酮类,,,594.6,猪,冠状动脉,NO/cGMP,内皮依赖性,"Yu, Dong et al. “The relaxing effect of Poncirus fructus and its flavonoid content on porcine coronary artery.” <em>Laboratory Animal Research</em> 31 (2015): 33 - 39.",61.86,,,
+282,Compound 282,,3010931,苯丙素类,,C20H22O8,,wistar大鼠,胸主动脉,,内皮依赖性,,,398,,
+283,Compound 283,,,其他类,,,520.526,wistar大鼠,胸主动脉,,内皮依赖性,,,380.7,,
+284,Compound 284,,107876,酚类,,,594.5,Wistar大鼠,,,内皮依赖性,,,16.82,,
+285,Compound 285,,107876,酚类,,,594.52,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,非单体,,
+286,Compound 286,,5994,其他类,,,,wistar大鼠,胸主动脉,,内皮非依赖性,,,,7.41,4.37
+287,Compound 287,,4943,酚类,,,178.271,Wistar大鼠,胸主动脉,,内皮非依赖性,,,,,60.49
+288,Compound 288,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,,,,,提取物,,
+289,Compound 289,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,,,,,提取物,,
+290,Compound 290,,5280343,黄酮类,,C15H10O7,,SD大鼠,胸主动脉,,内皮依赖性,,,7.0789999999999997,,
+291,Compound 291,,5280344,黄酮类,,,,,,,内皮依赖性,,,8.3179999999999996,,
+292,Compound 292,,5280345,黄酮类,,,,,肠系膜动脉,,内皮依赖性,,,5.0119999999999996,,
+293,Compound 293,,5352005,黄酮类,,C19H18O7,,wistar大鼠,主动脉环,NO/cGMP,内皮依赖性,,,776.24699999999996,15488,
+294,Compound 294,,5280417,黄酮类,,C17H㄁㐀伀㜀,,wistar大鼠,主动脉环,NO/cGMP,内皮依赖性,,,19.95,104.71,
+295,Compound 295,,,黄酮类,,,,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,122.8,
+296,Compound 296,,,黄酮类,11632.81,,,wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,129.03800000000001,148.88999999999999,
+297,Compound 297,,,黄酮类,,,,wistar大鼠,主动脉环,NO/cGMP,内皮依赖性,,,109.65,66.069000000000003,
+298,Compound 298,,,黄酮类,,,,wistar大鼠,主动脉环,,,,,10.47,25.703900000000001,
+299,Compound 299,,,黄酮类,11632.81,,,大鼠,胸主动脉,清除氧自由基、NO,内皮依赖性,VASCULAR AND ANTI-OXIDANT ACTIONS OF FLAVONOLS AND FLAVONES,,7.079（没找到用的试剂是什么）,,
+300,Compound 300,,,黄酮类,11632.81,,,,主动脉,,内皮依赖性,,,17.38,,
+301,Compound 301,,,黄酮类,11632.81,,,SD大鼠,胸主动脉,,非内皮依赖性,,,48.26,,
+302,Compound 302,,,黄酮类,11632.81,,,SD大鼠,胸主动脉,ATP、NO,内皮依赖性,,,,112.2,100
+303,Compound 303,,21676162,其他类,,,382.3,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,794.33,,
+304,Compound 304,,5274585,黄酮类,,,478.4,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,796.25,,
+305,Compound 305,,,其他类,,,308.33,SD大鼠,主动脉环,,,,,31.4,,
+306,Compound 306,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,无分子量,,
+307,Compound 307,,,其他类,2.33644298800359e-309,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,无分子量,,
+308,Compound 308,,445154,酚类,,,228.24,SD大鼠,胸主动脉,,内皮依赖性,,,28.6,,
+309,Compound 309,,445155,酚类,,,229.24,SD大鼠,胸主动脉,,内皮依赖性,,,28.6,,
+310,Compound 310,,445156,酚类,,,230.24,,,,内皮非依赖性,,151.35599999999999,,208.93,
+311,Compound 311,,5282150,黄酮类,,,,wistar大鼠,胸主动脉,,内皮依赖性,Vasorelaxing effects of flavonoids: investigation on the possible involvement of potassium channels,,,79.69,
+312,Compound 312,,482022876,其他类,,,575.59,,胸主动脉,,内皮依赖性,,,无分子量,,
+313,Compound 313,,5280805,黄酮类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,56.66,,
+314,Compound 314,,5280806,黄酮类,,,,SD大鼠,胸主动脉,,,,,179.5,,
+315,Compound 315,,5280807,黄酮类,,,,wistar大鼠,主动脉,Ca2+,,,,2.2389999999999999,,
+316,Compound 316,,159278,酚类,,,300.304,SD大鼠,胸主动脉,,内皮依赖性,,,0.3453,,
+317,Compound 317,,159279,酚类,,,301.304,,胸主动脉,,内皮依赖性,,,10320,,
+318,Compound 318,,25564831,其他类,,,472.7,大鼠,主动脉环,,内皮依赖性,,,,,非单体
+319,Compound 319,,163263,其他类,,,308.499,Wistar大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,18.82,,
+320,Compound 320,,185617,黄酮类,,,462.36,SD大鼠,基底动脉,,,,183.07,,,
+321,Compound 321,,185618,黄酮类,,,463.36,wistar大鼠,胸主动脉,,,,,,,7.7
+322,Compound 322,,185619,黄酮类,,,464.36,wistar大鼠,胸主动脉,Ca2+,内皮非依赖性,,,,,7.7
+323,Compound 323,,,其他类,2.6702108571662013e-307,,,SD大鼠,主动脉环,,内皮非依赖性,,,10.14,,
+324,Compound 324,,5208,其他类,,,,大鼠,主动脉环,,内皮依赖性,,,无数据,,
+325,Compound 325,,5213,苯丙素类,,,482.436,Wistar大鼠,胸主动脉,,内皮依赖性,,,0.15140000000000001,,
+326,Compound 326,,54454,阳性药,,,418.6,wistar 大鼠,胸主动脉,,内皮依赖性和非依赖性,,,无数据,,
+327,Compound 327,,5459308,生物碱类,,,329.4,Wistar大鼠,主动脉,,内皮依赖性,,,1.4319999999999999,2.5790000000000002,
+328,Compound 328,,5459309,生物碱类,,,330.4,Wistar大鼠,胸主动脉,,内皮依赖性,,,1.4319999999999999,2.5790000000000002,
+329,Compound 329,,5281700,其他类,,"÷SI{penc	ÿÿ/f÷mTir	ÿB 	 E t h a n o l i c   f r a c t i o n   o f   M o r o c c a n   C a n n a b i s   s a t i v a   t h r e s h i n g   r e s i d u e s        .     4 4 4 3 7 6 9 2      E t h y l   r o s m a r i n a t e ÿ1 7 4 5 9 1 - 4 7 - 0 	ÿ C 2 0 H 2 0 O 8  8 4 6 7      e t h y l   v a n i l l i n ÿ1 2 1 - 3 2 - 4 	ÿ e u c a l b a n i n   B  E u d e s m i n ÿC A S ÿ5 2 6 - 0 6 - 7 	ÿ 	 C 2 2 H 2 6 O 6     9    9    9  e u p a t o r i n ÿC A S ÿ2 1 7 6 4 - 0 9 - 0 	ÿ 8 5 5 - 9 6 - 9  e z e t i m i b e ÿ1 6 3 2 2 2 - 3 3 - 1 	ÿ C 2 4 H 2 1 F 2 N O 3    9 1 1 4 4      F a r r e r o l ÿ2 4 2 1 1 - 3 0 - 1 	ÿ C 1 7 H 1 6 O 5 	   4 4 5 8 5 8      f e r u l i c   a c i d ÿ1 1 3 5 - 2 4 - 6 	ÿ F G S / U G S ÿGW:NÐcÖSir	ÿ f i s e t i n   ÿ5 2 8 - 4 8 - 3 	ÿ 5 2 8 - 4 8 - 3  f o r m o n o n e t i n ÿC A S   :   4 8 5 - 7 2 - 3 	ÿ C 1 6 H 1 2 O 4 	 f o r s k o l i n  6 6 5 7 5 - 2 9 - 9     6 6 4 2 8 - 8 9 - 5  f u m i g a c l a v i n e   C 
+ 6 2 8 6 7 - 4 7 - 4 
+ C 2 2 H 2 5 N 3 O 3  3 7 9 . 5   g / m o l  	 G .   u r a l e n s i s           3 7 0      g a l l i c   a c i d ÿ1 4 9 - 9 1 - 7 	ÿ C 7 H 6 O 5  1 1 5 0 6 7      g a s t r o d i n ( 6 2 4 9 9 - 2 7 - 8 )  C 1 3 H 1 8 O 7  g e n i s t e i n ÿC A S ÿ4 4 6 - 7 2 - 0 	ÿ G e n t i o p i c r o s i d e ( 2 0 8 3 1 - 7 6 - 9 )  C 1 6 H 2 0 O 9 	   6 3 7 5 6 6      G e r a n i o l   ÿ1 0 6 - 2 4 - 1 	ÿ 4 4 2 7 9 3      G i n g e r o l ÿ2 3 5 1 3 - 1 4 - 6 	ÿ C 1 7 H 2 6 O 4  g i n s e n o s i d e   R b 1 ( 4 1 7 5 3 - 4 3 - 9 ) 	 C 5 4 H 9 2 O 2 3  G i n s e n o s i d e   R g 2 ÿ5 2 2 8 6 - 7 4 - 5 	ÿ	 C 4 2 H 7 2 O 1 3 	   6 3 4 4 7 0      g o m i s i n   A ÿ5 8 5 4 6 - 5 4 - 6 	ÿ C 2 3 H 2 8 O 7 # G r i f f i p a v i x a n t h o n e ÿC A S ÿ2 1 9 6 4 9 - 9 5 - 3 	ÿ	 	 C 3 6 H 2 8 O 1 2     9    9    9 \ 	 h e   f e t a l   h e m o g l o b i n   i n d u c e r   a g e n t   3 - ( 1 , 3 - d i o x o i s o i n d o l i n - 2 - y l )   b e n z y l   n i t r a t e     ( 1 2 5 2 1 8 - 6 1 - 3 )    M  O  	 C 2 0 H 1 7 N O 5  h e m a t o x y l i n ÿ8 0 0 5 - 3 3 - 2 	ÿ 3 0 2 . 2 8   g / m o l  H e p a r i n ÿ9 0 0 5 - 4 9 - 6 	ÿ C 2 6 H 4 2 N 2 O 3 7 S 5    1 0 7 4 8      h e r n i a r i n ÿ5 3 1 - 5 9 - 9 	ÿ C 1 0 H 8 O 3  7 2 2 8 1      h e s p e r e t i n ÿ5 2 0 - 3 3 - 2 	ÿ h e s p e r i d i n ÿC A S ÿ  5 2 0 - 2 6 - 3 )          C 2 8 H 3 4 O 1 5             	 5 3 1 8 0 3 9      h e x a h y d r o c u r c u m i n ÿ3 6 0 6 2 - 0 5 - 2 	ÿ C 2 1 H 2 6 O 6  h o m o p l a n t a g i n i n ÿC A S : 1 7 6 8 0 - 8 4 - 1 	ÿ	 C 2 2 H 2 2 O 1 1  h u m u l u s   f l a v o n o i d s ÿC A S ÿ*gåg0R	ÿ	 6 4 4 3 6 6 5     # H y d r o x y s a f f l o r   y e l l o w   A ÿ7 8 2 8 1 - 0 2 - 4 	ÿ	 C 2 7 H 3 2 O 1 6  H y p e r o s i d e ( C A S : 4 8 2 - 3 6 - 0 )  h y p o g a l l i c   a c i d  3 0 3 - 3 8 - 8 	   1 8 2 1 4 0      h y p o p h y l l a n t h i n ÿ3 3 6 7 6 - 0 0 - 5 	ÿ C 2 4 H 3 0 O 7  I c a r i i n ( 4 8 9 - 3 2 - 7 ) 	 C 3 3 H 4 0 O 1 5    1 0 2 1 2      i m p e r a t o r i n ÿ4 8 2 - 4 4 - 0 	ÿ I r i s i n ÿ4 9 1 - 7 4 - 7 	ÿ	 C 2 4 H 2 6 O 1 3 ' I s o c a l o l o n g i c   a c i d   ( I A ) ÿC A S ÿ4 0 7 3 7 - 9 2 - 6 	ÿ	 C 2 2 H 2 8 O 6   
+   6 2 5 1 2 7 0      i s o c o r d o i n ÿ5 2 6 0 1 - 0 5 - 5 	ÿ C 2 0 H 2 0 O 3  i s o c o r y n o x e i n e   ÿ5 1 0 1 4 - 2 9 - 0 	ÿ
+ C 2 2 H 2 6 N 2 O 4 B i s o p r o p y l   3 - ( 3 , 4 - d i h y d r o x y p h e n y l ) - 2 - h y d r o x y p r o p a n o a t e ÿ8 6 8 7 8 5 - 5 0 - 6 	ÿ 	 C 1 2 H 1 6 O 5     9    9    9  i s o r h a m n e t i n ÿ4 8 0 - 1 9 - 3 	ÿ C 1 6 H 1 2 O 7  3 1 6 . 2 6   g / m o l + i s o r h a m n e t i n - 3 - g l u c u r o n i d e ÿC A S ÿ3 6 6 8 7 - 7 6 - 0 	ÿ  	 	 C 2 2 H 2 0 O 1 3     9    9    9  I s o s t e v i o l ( 2 7 9 7 5 - 1 9 - 5 )  C 2 0 H 3 0 O 3  3 1 8 . 4   g / m o l  i s o t i r u m a l i n ( C A S : 1 1 9 7 3 6 - 7 2 - 0 )  C 2 2 H 2 4 O 7 
+ 2 4 7 2 1 0 3 1      J u j u b o s i d e   B ÿ5 5 4 6 6 - 0 5 - 2 	ÿ	 C 5 2 H 8 4 O 2 1  k a e m p f e r o l   ÿC A S ÿ5 2 0 - 1 8 - 3 	ÿ 2 8 6 . 2 4  k a u r e n o i c   a c i d ( 6 7 3 0 - 8 3 - 2 )  K o r e a n   p l u m ÿC A S : 7 0 2 6 6 - 4 8 - 7 	ÿ C 1 3 H 2 0 O  l u t e o l i n ÿ4 9 1 - 7 0 - 3 	ÿ 1 6 9 2 3 4      m a g n o l i n ÿ3 1 0 0 8 - 1 8 - 1 	ÿ M a m m e a   A / A A   c y c l o F ÿC A S ÿ*gåg0R	ÿ
+ 3 0 5 6 3 - 6 2 - 3 	   3 3 4 7 0 4      m a r m e s i n ÿ1 3 8 4 9 - 0 8 - 6 	ÿ C 1 4 H 1 4 O 4  m a r r u b i i n ÿC A S ÿ4 6 5 - 9 2 - 9 	ÿ 	 C 2 0 H 2 8 O 4     9    9    9  M e s a c o n i t i n e ÿ2 7 5 2 - 6 4 - 9 	ÿ
+ C 3 3 H 4 5 N O 1 1  6 3 1 . 7   g / m o l  n a r i n g e n i n ( 1 0 2 3 6 - 4 7 - 2 ) 	 C 2 7 H 3 2 O 1 4  5 8 0 . 5      n a r i n g e n i n ÿC A S ÿ4 8 0 - 4 1 - 1 	ÿÿ¡låg0R	ÿ
+   
+ C 1 5 H 1 2 O 5 	   4 4 2 4 3 1      N a r i r u t i n ÿ1 4 2 5 9 - 4 6 - 2 	ÿ N e f e r i n e ( 2 2 9 2 - 1 6 - 2 ) 
+ C 3 8 H 4 4 N 2 O 6  o e n o t h e i n   B  1 0 4 9 8 7 - 3 6 - 2  o l e a n o l i c   a c i d ÿ5 0 8 - 0 2 - 1 	ÿ 4 5 6 . 7   g / m o l  O r i e n t i n ÿ2 8 6 0 8 - 7 5 - 5 ) 	 C 2 1 H 2 0 O 1 1  4 4 8 . 4   g / m o l  O x y m a t r i n e ÿC A S ÿ1 6 8 3 7 - 5 2 - 8 	ÿ
+ 	 C 1 5 H 2 4 N 2 O 2     9    9    9   	 9  1 1 0 9 2      p a e o n o l ÿ5 5 2 - 4 1 - 0 	ÿ P a n a x   n o t o g i n s e n g ÿ8 8 1 0 5 - 2 9 - 7 	ÿ N o t o g i n s e n o s i d e   F e ÿ8 8 1 0 5 - 2 9 - 7 	ÿ	 C 4 7 H 8 0 O 1 7  P a n t o p r a z o l e ÿC A S : 1 4 2 6 7 8 - 3 5 - 1 	ÿ C 1 6 H 1 5 F 2 N 3 O 4 S * P D - C 3 0 2   ÿ2 - h y d r o x y - 4 - m e t h o x y v a l e r o p h e n o n e 	ÿ+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+ 3 3 8 0 9 - 5 2 - 8 
+   5 2 8 1 5 2 6      p e t a s i n ÿ2 6 5 7 7 - 8 5 - 5 	ÿ C 2 0 H 2 8 O 3  P h l o m e o i c   A c i d ÿC A S ÿ1 3 8 4 9 - 9 1 - 7 	ÿ 3 5 8 9 0 1      p h y l l a n t h i n ÿ1 0 3 5 1 - 8 8 - 9 	ÿ C 2 4 H 3 4 O 6  P h y l l a n t h u s   n i r u r i    ÐcÖSir"" p h y t o e s t r o g e n ±- z e a r a l a n o l ÿC A S ÿ*gåg0R	ÿ p i c e a t a n n o l ÿ1 0 0 8 3 - 2 4 - 6 	ÿ C 1 4 H 1 2 O 4  p i c e a t a n n o l ÿ1 0 0 8 3 - 2 4 - 7 	ÿ C 1 4 H 1 2 O 5  p i n o c e m b r i n ÿC A S ÿ4 8 0 - 3 9 - 7 	ÿ C 1 5 H 1 2 O 4  P o n c i r i n ÿC A S ÿ1 4 9 4 1 - 0 8 - 3 	ÿ	 C 2 8 H 3 4 O 1 4  p r i n s e p i o l ( 8 2 6 6 7 - 9 9 - 0 )  3 9 0 . 4   g / m o l 1 p r i n s e p i o l - 4 - O - b e t a - D - g l u c o p y r a n o s i d e ÿ6 9 2 5 1 - 9 6 - 3 	ÿ	 C 2 6 H 3 2 O 1 1 ! p r o a n t h o c y a n i d i n s ÿC A S ÿ2 0 3 4 7 - 7 1 - 1 	ÿ	 C 3 0 H 2 6 O 1 3 8 P r o c y a n i d i n s ÿC A S ÿ2 0 3 4 7 - 7 1 - 1 	ÿSe:Na p p l e   P r o c y a n i d i n s ÿàeøvsQpenc	ÿ p r o g e s t e r o n e ÿ5 7 - 8 3 - 0 	ÿ= f&  2 5 7 6 3 0 - 5 0 - 5 
+ f&  7 5 3 4 9 7 - 2 0 - 0 
+ f&  5 7 - 8 3 - 0 
+ f&  8 0 2 3 - 1 3 - 0 
+ f&  8 0 1 2 - 3 2 - 6  C 2 1 H 3 0 O 2  3 1 4 . 5   g / m o l  p r o p o f o l ÿC A S : 2 0 7 8 - 5 4 - 8 )  C 1 2 H 1 8 O  P r u n u s   m u m e % P s o r a l e a   c o r y l i f o l i a   e x t r a c t ÿÐcÖSirÿ^USSO	ÿ q u e r c e t i n ( 1 1 7 - 3 9 - 5 )  3 0 2 . 2 3   g / m o l  q u e r c e t i n ( 1 1 7 - 3 9 - 6 )  C 1 5 H 1 0 O 8  3 0 2 . 2 4   g / m o l  q u e r c e t i n ( 1 1 7 - 3 9 - 7 )  C 1 5 H 1 0 O 9  3 0 2 . 2 5   g / m o l 1 q u e r c e t i n   3 , 3  4  7 - t e t r a m e t h y l ÿR e t u s i n ) ÿ1 2 4 5 - 1 5 - 4 	ÿ   f&  4 8 0 - 8 6 - 4 
+ f&  1 2 4 5 - 1 5 - 4  3 5 8 . 3   g / m o l ' Q u e r c e t i n   3 , 7 - d i m e t h y l   e t h e r ÿ2 0 6 8 - 0 2 - 2 	ÿ 3 3 0 . 2 9   g / m o l $ f&  7 3 1 2 3 - 1 0 - 1 
+ f&  7 4 8 9 3 - 8 1 - 5 
+ f&  1 1 7 - 3 9 - 5 %   f&  7 3 1 2 3 - 1 0 - 1 
+ f&  7 4 8 9 3 - 8 1 - 5 
+ f&  1 1 7 - 3 9 - 5  q u e r c e t i n ( 1 1 7 - 3 9 - 8 )  q u e r c e t i n ( 1 1 7 - 3 9 - 9 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 0 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 1 )  q u e r c e t i n ( 1 1 7 - 3 9 - 1 2 ) $ q u e r c e t i n - 3 2 - s u l f a t e ÿC A S ÿ6 2 3 6 9 - 2 8 - 2 	ÿ
+ 6 0 8 8 9 - 0 5 - 6 
+ 	 C 1 5 H 1 0 O 1 0 S     9    9    9 	  ' q u e r c e t i n - 3 - g l u c u r o n i d e ÿC A S ÿ2 2 6 8 8 - 7 9 - 5 	ÿ
+ C 2 1 H 1 8 O 1 3   H R - ( - ) - 3 ' - h y d r o x y - 2 , 4 , 5 - t r i m e t h o x y d a l b e r g i q u i n o l   i s o l a t e d ÿC A S ÿ9 1 4 7 8 - 1 3 - 6 	ÿ
+ C 1 5 H 2 0 N 2 O 5 = R A ÿ  n e w   c o n s t i t u e n t s   l a b e l e d   f r o m   P h l o m i s   b r a c t e o s a 	ÿÿC A S ÿ*gåg0R	ÿ= R B ÿ  n e w   c o n s t i t u e n t s   l a b e l e d   f r o m   P h l o m i s   b r a c t e o s a 	ÿÿC A S ÿ*gåg0R	ÿ r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 0 	ÿ C 1 4 H 1 2 O 3  r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 1 	ÿ r e s v e r a t r o l   ÿ5 0 1 - 3 6 - 2 	ÿ r h o i f o l i n ÿ1 7 3 0 6 - 4 6 - 6 	ÿ	 C 2 7 H 3 0 O 1 4  5 7 8 . 5   g / m o l ! R u m e x   a c e t o s a   L ÿC A S : 1 6 8 1 0 5 4 - 6 0 - 3 	ÿ C 2 3 H 3 3 N 3 O 1 2 S  r u t i n ( 1 5 3 - 1 8 - 4 ) u f&  1 1 5 8 8 8 - 4 0 - 9 
+ f&  1 4 1 6 - 0 1 - 9 
+ f&  1 4 6 5 2 5 - 6 6 - 8 
+ f&  1 5 8 5 6 0 - 0 9 - 9 
+ f&  1 6 4 5 3 5 - 4 3 - 7 
+ f&  1 8 4 4 9 - 5 0 - 8 
+ f&  4 8 1 9 7 - 7 2 - 4 
+ f&  5 6 7 6 4 - 9 9 - 9 
+ f&  1 5 3 - 1 8 - 4 	 C 2 7 H 3 0 O 1 6  6 1 0 . 5      r u t i n ( 1 5 3 - 1 8 - 5 ) 	 C 2 7 H 3 0 O 1 7  6 1 0 . 6    r u t i n ( 1 5 3 - 1 8 - 6 ) v   f&  1 1 5 8 8 8 - 4 0 - 9 
+ f&  1 4 1 6 - 0 1 - 9 
+ f&  1 4 6 5 2 5 - 6 6 - 8 
+ f&  1 5 8 5 6 0 - 0 9 - 9 
+ f&  1 6 4 5 3 5 - 4 3 - 7 
+ f&  1 8 4 4 9 - 5 0 - 8 
+ f&  4 8 1 9 7 - 7 2 - 4 
+ f&  5 6 7 6 4 - 9 9 - 9 
+ f&  1 5 3 - 1 8 - 4 	 C 2 7 H 3 0 O 1 8  6 1 0 . 7    1 5 9 2 7 8      s a l i d r o s i d e ÿ1 0 3 3 8 - 5 1 - 9 	ÿ C 1 4 H 2 0 O 7  1 5 9 2 7 9      s a l i d r o s i d e ÿ1 0 3 3 8 - 5 1 - 1 0 	ÿ C 1 4 H 2 0 O 8 
+ 2 5 5 6 4 8 3 1     1 s a l v i n   A ÿågN0RC A S TáOo`	ÿ  a n d   m a s l i n i c   a c i d ÿ2 6 5 6 3 - 6 8 - 8 	ÿ C 3 0 H 4 8 O 4  S c l a r e o l ÿ5 1 5 - 0 3 - 7 	ÿ 5 1 5 - 0 3 - 7  C 2 0 H 3 6 O 2  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 8     	ÿ	 C 2 1 H 1 8 O 1 2  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 9     	ÿ	 C 2 1 H 1 8 O 1 3  S c u t e l l a r i n ÿ2 7 7 4 0 - 0 1 - 1 0     	ÿ	 C 2 1 H 1 8 O 1 4 , 4 - h y d r o x y - 3 - ( i s o p e n t e n - 2 - y l ) - a c e t o p h e n o x i m e    s h i k o n i n / a l k a n n i n ÿ8 5 2 5 1 - 5 8 - 7 	ÿ
+ 5 4 9 5 2 - 4 3 - 1  C 1 6 H 1 6 O 5  2 8 8 . 2 9   g / m o l  5 2 1 3      S i l y m a r i n ÿ6 5 6 6 6 - 0 7 - 1 	ÿ	 C 2 5 H 2 2 O 1 0  5 4 4 5 4      S i m v a s t a t i n ÿ7 9 9 0 2 - 6 3 - 9 	ÿ C 2 5 H 3 8 O 5  S i n o m e n i n e ÿ1 1 5 - 5 3 - 7 	ÿ	 C 1 9 H 2 3 N O 4  S i n o m e n i n e ÿ1 1 5 - 5 3 - 8 	ÿ	 C 1 9 H 2 3 N O 5  t a m b u l i n   ÿ5 7 1 - 7 2 - 2 )  1 2 6 0 7 1      t a n s h i n o l ÿ1 8 9 2 9 0 - 3 0 - 0 	ÿ C 1 8 H 1 6 O 4  T a r t a r y   b u c k w h e a t ( 8 9 9 5 9 - 0 9 - 8 )  N9SMN^USSO ÛVYNpÝ]êUn T e t r a - a c e t y l a j u g a s t e r o n e   C    1 4 2 9 6      T e t r a m e t h y l p y r a z i n e ÿ1 1 2 4 - 1 1 - 4 	ÿ C 8 H 1 2 N 2  t i l i a c o r i n i n e   1 2 ' - O - a c e t a t e  T S C ( 5 9 1 2 2 3 0 - 9 9 - 8 ) ÿ^STirÿ:N÷mTir	ÿ C 2 0 H 2 2 N a 2 O 4  U v a o l ÿC A S ÿ5 4 5 - 4 6 - 0 	ÿ   1 1 8 3      V a n i l l i n ÿ1 2 1 - 3 3 - 5 	ÿ C 8 H 8 O 3    6 2 3 4 8      v a n i l l y l   a l c o h o l ÿ4 9 8 - 0 0 - 0 	ÿ C 8 H 1 0 O 3  V e r a p a m i l ÿ5 2 - 5 3 - 9 	ÿ
+ C 2 7 H 3 8 N 2 O 4  w o o d f o r d i n   C  1 2 6 3 4 7 - 6 3 - 5  x a n t h o a n g e l o l   B ÿ1 3 2 9 9 8 - 8 1 - 3 	ÿ C 2 5 H 2 8 O 5  4 0 8 . 5   g / m o l  X a n t h o a n g e l o l   E ÿ1 3 2 9 9 8 - 8 4 - 6 	ÿ C 2 1 H 2 2 O 6  3 7 0 . 4   g / m o l  x a n t h o a n g e l o l   F ÿ2 6 5 6 5 2 - 7 1 - 9 	ÿ C 2 6 H 3 0 O 4  4 0 6 . 5   g / m o l  x a n t h o a n g e l o l ÿ6 2 9 4 9 - 7 6 - 2 	ÿ C 2 5 H 2 8 O 4  3 9 2 . 5   g / m o l 	 5 4 7 0 1 8 7      z e r u m b o n e ( 4 7 1 - 0 5 - 6 )  ±- N F ÿ6 0 4 - 5 9 - 1 	ÿ 9 0 - 1 5 - 3  ²- N F ÿ6 0 5 1 - 8 7 - 2 	ÿ 1 3 5 - 1 9 - 3  9 - t e t r a h y d r o c a n n a b i n o l  µ- v i n i f e r i n 
+ 6 2 2 1 8 - 0 8 - 0  µ- v i n i f e r i n ÿ6 2 2 1 8 - 0 8 - 0 	ÿ C   H   O   4 5 4 . 4 7 8   g · m o l ""¹  G i n s e n o s i d e   R d ( C A S : 5 2 7 0 5 - 9 3 - 8 ) 	 C 4 8 H 8 2 O 1 8  9 4 7 . 2    	 2 0 ÿR 	ÿ- R g   3 ( C A S : 3 8 2 4 3 - 0 3 - 7 )            
+ 	 2 0 ÿS 	ÿ- R g   3             	 G i n s e n o s i d e   R g 3 ÿC A S ÿ1 4 1 9 7 - 6 0 - 5 	ÿ              g i n s e n o s i d e s ( C A S : 7 4 7 4 9 - 7 4 - 9 )  C 3 0 H 5 2 O 2  	 G i n s e n o s i d e   R g 1 ÿC A S ÿ2 2 4 2 7 - 3 9 - 0 	ÿ             	 C 4 2 H 7 2 O 1 4  8 0 1 . 0   
+ 2 1 5 9 9 9 2 4      G i n s e n o s i d e   R g 2 ( C A S : 5 2 2 8 6 - 7 4 - 5 )  G i n s e n o s i d e   R b 1 ( C A S : 4 1 7 5 3 - 4 3 - 9 ) $ G i n s e n o s i d e   R e   5 2 2 8 6 - 5 9 - 6   5 1 5 4 2 - 5 6 - 4  4 4 1 9 3 4     "" N o t o g i n s e n o s i d e   R 1 ( C A S : 8 0 4 1 8 - 2 4 - 2 ) 
+ C 4 7 H 8 0 O 1 8    N o t o g i n s e n o s i d e   F e   8 8 1 0 5 - 2 9 - 7  9 1 7 . 1   
+ 9 1 9 7 3 8 1 4     $ 	 N o t o g i n s e n o s i d e   F t 1 ÿC A S ÿ1 5 5 6 8 3 - 0 0 - 4 	ÿ           #     C 4 7 H 8 0 O 1 7      9 1 7 . 1 * 	 A s t r a g a l o s i d e   I V ÿC A S ÿ8 3 2 0 7 - 5 8 - 3 	ÿ8 4 6 8 7 - 4 3 - 4                  9 2 0 4 3 1 8 3        b a c o s i d e   A ( C A S : 1 1 0 2 8 - 0 0 - 5 ) 
+   C 4 1 H 6 8 O 1 3    2 1 5 9 9 4 4 2        b a c o p a s i d e   `!( C A S :   3 8 2 1 4 8 - 4 7 - 2 )    C 4 6 H 7 4 O 2 0 S      9 7 9 . 1 	   4 4 1 8 8 7      G i t o g e n i n ( C A S : 5 1 1 - 9 6 - 6 ) 	   C 2 7 H 4 4 O 4  	 A n e m o s i d e   A 3 ÿC A S : 1 2 9 7 2 4 - 8 4 - 1 )        	 C 4 1 H 6 6 O 1 2 	   1 1 9 2 4 5      D i o s c i n ( C A S : 1 9 0 5 7 - 6 0 - 4 ) 
+ C 4 5 H 7 2 O 1 6    J u j u b o s i d e   B   ( C A S : 5 5 4 6 6 - 0 5 - 2 )  1 0 4 5 . 2    S c o p o l e t i n ( C A S : 9 2 - 6 1 - 5 )  C 1 0 H 8 O 4  S e d a n o l i d e ( C A S : 6 4 1 5 - 5 9 - 4 )  C 1 2 H 1 8 O 2  6 1 3 6 1    B u t y l p h t h a l i d e ( C A S : 6 0 6 6 - 4 9 - 5 )  C 1 2 H 1 4 O 2  S e n k y u n o l i d e   A ( C A S : 6 3 0 3 8 - 1 0 - 8 )  C 1 2 H 1 6 O 2  L i g u s t i l i d e ( C A S : 4 4 3 1 - 0 1 - 0 )  B o r n e o l ( C A S : 1 0 3 8 5 - 7 8 - 1 )  S e n k y u n o l i d e   H ( C A S : 9 4 5 9 6 - 2 7 - 7 )  C 1 2 H 1 6 O 4  A n g e l i c i d e ( C A S : 9 2 9 3 5 - 9 4 - 9 )  C 2 4 H 2 8 O 4 % I s o c h l o r o g e n i c   a c i d   C ( C A S : 3 2 4 5 1 - 8 8 - 0 ) 	 C 2 5 H 2 4 O 1 2  V a n i l l i n ( C A S :   1 2 1 - 3 3 - 5 ) "" T e t r a m e t h y l p y r a z i n e ( C A S : 1 1 2 4 - 1 1 - 4 ) & I s o c h l o r o g e n i c   a c i d   B ( C A S :   1 4 5 3 4 - 6 1 - 3 ) 
+ 8 6 2 9 3 4 2 5      K a n s h o n e   H ( C A S : 1 4 4 5 9 5 2 - 3 3 - 9 )  C 1 5 H 2 0 O  1 6 5 5 3 6      ( - ) - A r i s t o l o n e ( C A S : 2 5 2 7 4 - 2 7 - 5 )  N a r d o s i n o n e ( C A S : 2 3 7 2 0 - 8 0 - 1 )  C 1 5 H 2 2 O 3 	 1 0 4 6 6 5 6 4    K a n s h o n e   A ( C A S : 1 1 5 3 5 6 - 1 8 - 8 )  C 1 5 H 2 2 O 2  i s o c o r y n o x e i n e ÿC A S : 5 1 0 1 4 - 2 9 - 0 )  r h y n c h o p h y l l i n e ÿC A S : 7 6 - 6 6 - 4 ) 
+ C 2 2 H 2 8 N 2 O 4 + G e i s s o s c h i z i n e   m e t h y l   e t h e r ( C A S : 6 0 3 1 4 - 8 9 - 8 ) 
+ C 2 2 H 2 6 N 2 O 3  h i r s u t i n e ( C A S : 7 7 2 9 - 2 3 - 9 ) 
+ H i r s u t e i n e  c o r y n o x e i n e  i s o r h y n c h o p h y l l i n e  7 6 9 5 5    	 5 - H Y D R O X Y O X I N D O L E ÿ3 4 1 6 - 1 8 - 0 	ÿ  !  :  !  :  	 C 8 H 7 N O 2      ;  %  ;  %  ;  1 , 2 - B e n z e n e d i o l ( 1 2 0 - 8 0 - 9 )  C 6 H 6 O 2 ' 6 - H y d r o x y - 3 , 4 - d i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e  C 9 H 9 N O 2  	 1 6 3 . 1 7        $ & 6 - h y d r o x y q u i n o l i n - 2 ( 1 H ) - o n e   1 9 3 1 5 - 9 3 - 6  C 9 H 7 N O 2 2 5 - H y d r o x y - 3 , 4 - d i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e   3 0 3 8 9 - 3 3 - 4  	 C 9 H 9 N O 2      <  &  <  &  <  2 , 8 - Q u i n o l i n e d i o l   1 5 4 5 0 - 7 6 - 7  O x i n d o l e   5 9 - 4 8 - 3  C 8 H 7 N O & 3 , 4 - D i h y d r o - 2 ( 1 H ) - q u i n o l i n o n e   5 5 3 - 0 3 - 7  C 9 H 9 N O  	 1 4 7 . 1 7        $  b e n z o i c   a c i d   6 5 - 8 5 - 0  	 1 2 2 . 1 2        $ : 8 - H y d r o x y - 3 , 4 - d i h y d r o - 2 - q u i n o l i n o n e   5 2 7 4 9 - 5 0 - 5   
+ 5 2 7 4 9 - 5 0 - 5 . 8 - H y d r o x y q u i n o l i n e - 2 - c a r b o x y l i c   a c i d   1 5 7 1 - 3 0 - 8  C 1 0 H 7 N O 3  2 - H y d r o x y q u i n o l i n e    C 9 H 7 N O  ¹UIUn Bg¯s §x{| >u{| C h e n o d e o x y c h o l i c   a c i d   4 7 4 - 2 5 - 9  C 2 4 H 4 0 O 4  U R S O D E O X Y C H O L I C   A C I D   1 2 8 - 1 3 - 2  D e o x y c h o l i c   a c i d   8 3 - 4 4 - 3  B a i c a l e i n   4 9 1 - 6 7 - 8  	 C 1 5 H 1 0 O 5   &  <  &  <  &  <  B a i c a l i n   2 1 9 6 7 - 4 1 - 9 	 	 C 2 1 H 1 8 O 1 1   %  ;  %  ;  %  ; , O r o x y l i n   A   7 - O - b e t a - D - g l u c u r o n i d e   3 6 9 4 8 - 7 6 - 2 	 	 C 2 2 H 2 0 O 1 1   %  ;  %  ;  %  ;  W o g o n o s i d e   5 1 0 5 9 - 4 4 - 0 	 C 2 2 H 2 0 O 1 1  L a g o c h i l i n   2 3 5 5 4 - 8 1 - 6  C 2 0 H 3 6 O 5  G a l b i n i c   A c i d   5 6 6 9 1 - 8 8 - 4 	 	 C 2 0 H 1 4 O 1 1   %  ;  %  ;  %  ;  t a u r o d e o x y c h o l i c   a c i d     5 1 6 - 5 0 - 7 
+ 	 C 2 6 H 4 5 N O 6 S   %  ;  %  ;  %  ; 	 % $ 1 , 2 - B e n z e n e d i c a r b o x y l i c   a c i d   8 4 - 7 4 - 2  	 C 1 6 H 2 2 O 4   %  ;  %  ;  %  ;  ½ R e h m a p i c r o s i d e   1 0 4 0 5 6 - 8 2 - 8  	 C 1 6 H 2 6 O 8   %  ;  %  ;  %  ;  C h r y s o p h a n i c   a c i d     4 8 1 - 7 4 - 3  	 C 1 5 H 1 0 O 4   %  ;  %  ;  %  ;  L i m o n e x i c   a c i d   9 9 0 2 6 - 9 9 - 0 	 	 C 2 6 H 3 0 O 1 0   &  <  &  <  &  <  A l p h a - p i n e n e   8 0 - 5 6 - 8  	 C 1 0 H 1 6   &  <  &  <  I s o c h l o r o g e n i c a c i d   A   2 4 5 0 - 5 3 - 5  C r y p t o c h l o r o g e n i c   a c i d   9 0 5 - 9 9 - 7  P r o t o c a t e c h u i c   a c i d  	 C 7 H 6 O 4   &  <  &  <  &  <  V a n i l l i c   a c i d   1 2 1 - 3 4 - 6  	 C 8 H 8 O 4   &  <  &  <  &  <  N e o c h l o r o g e n i c   a c i d   9 0 6 - 3 3 - 2 * S e n k y u n o l i d e   I     
+ s e n k y u n o l i d e   I 
+ 9 4 5 9 6 - 2 8 - 8  S u c c i n i c   a c i d   1 1 0 - 1 5 - 6  C 4 H 6 O 4 ",344.315,猪,冠状动脉,,内皮非依赖性,,2.1800000000000002,,,
+330,Compound 330,,126071,黄酮类,,,296.317,SD大鼠,胸主动脉,,内皮非依赖性,,,80.180000000000007,,
+331,Compound 331,,,其他类,,,,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,提取物,,
+332,Compound 332,,无数据,,2.33644298800359e-309,,,大鼠,胸主动脉,,内皮依赖性,,,,36.299999999999997,8.4
+333,Compound 333,,14296,其他类,,,136.19,SD大鼠,胸主动脉,,内皮依赖性,,,71.819999999999993,,
+334,Compound 334,,,其他类,2.33644298800359e-309,,,wistar大鼠,主动脉环,,,,,3.5000000000000001E-3,,
+335,Compound 335,,73245,其他类,,,372.366,大鼠,主动脉,,,,,非单体,非单体,
+336,Compound 336,,92802,萜类,,,442.717,SD大鼠,胸主动脉,NO/cGMP,内皮依赖性,,,43.59,,
+337,Compound 337,,1183,其他类,,,152.147,猪,冠状动脉,Ca2+,内皮非依赖性,,473.6,,448.7,
+338,Compound 338,,62348,其他类,,,154.163,猪,冠状动脉,Ca2+,内皮非依赖性,,2592,,426.7,
+339,Compound 339,,2520,生物碱类,,,454.602,Wistar大鼠,,Ca2+,内皮非依赖性,,,0.7923,0.1527,
+340,Compound 340,,,酚类,,,,wistar大鼠,主动脉环,,内皮依赖性,,,,,1.27
+341,Compound 341,,10409180,酚类,,,,wistar大鼠,胸主动脉,Ca2+,内皮依赖性,,,155.54467560000001,,
+342,Compound 342,,10022050,酚类,,,,wistar大鼠,胸主动脉,,内皮依赖性,,,1261.8789999999999,,
+343,Compound 343,,6479088,酚类,,,,wistar大鼠,胸主动脉,,内皮依赖性,,,2187.21,,
+344,Compound 344,,643007,酚类,,,,wistar大鼠,胸主动脉,,内皮依赖性,,,247.64,,
+345,Compound 345,,5470187,萜类,,C15H22O,218.335,Wistar大鼠,主动脉环,Ca2+,内皮非依赖性,,,,16,
+346,Compound 346,,11790,黄酮类,,C19H12O2,272.3 g/mol,Wistar大鼠,胸主动脉,,内皮依赖性,,,0.95,,
+347,Compound 347,,2361,黄酮类,,C19H12O2,272.3 g/mol,Wistar大鼠,胸主动脉,,内皮依赖性,,,123.2,,
+348,Compound 348,,无数据,酚类,2.33644298800359e-309,,,SD大鼠,主动脉环,,内皮依赖性,,,,,6.9179999999999997E-3
+349,Compound 349,,162221598,其他类,,无,无,SD大鼠,胸主动脉,,内皮依赖性,,,8.4,,
+350,Compound 350,,162221598,其他类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,8.4,,
+351,Compound 351,,11679800,皂苷类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,32.81,,
+352,Compound 352,,46887680,皂苷类,,,785.01,猪,,,,,,,42100,
+353,Compound 353,,9918693,皂苷类,,,785,猪,,,,,,,46200,
+354,Compound 354,,9918693,皂苷类,,,786,SD大鼠,胸主动脉,,内皮依赖性,,,13.1043256997455,,
+355,Compound 355,,9918693,皂苷类,,,,SD大鼠,胸主动脉,,,,,17.8117048346056,,
+356,Compound 356,,9918693,皂苷类,,,,,,,内皮依赖性,,,56.221374045801497,,
+357,Compound 357,,9918693,皂苷类,,,,SD大鼠,胸主动脉,,,,,,18.0152671755725,
+358,Compound 358,,3086007,皂苷类,,,444.7,SD大鼠,,,,,,146.16595457611899,,
+359,Compound 359,,441923,皂苷类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,754.057428214732,,
+360,Compound 360,,441923,皂苷类,,,,,冠状动脉,,内皮依赖性,,0.54559999999999997,,,
+361,Compound 361,,441923,皂苷类,,,,Wistar大鼠,胸主动脉,,,,,,,0.88900000000000001
+362,Compound 362,,21599924,皂苷类,,,785.03,Wistar大鼠,胸主动脉,,,,,,,2748
+363,Compound 363,,9898279,皂苷类,,,1109.3,Wistar大鼠,胸主动脉,,内皮依赖性,,,,,1.5740000000000001
+364,Compound 364,,9898279,皂苷类,,,1109.3,SD大鼠,,,,,,,5.4,
+365,Compound 365,,9898279,皂苷类,,,1109.3,,冠状动脉,,内皮依赖性,,0.1709,,,
+366,Compound 366,,441921,皂苷类,,,947.2,SD大鼠,,,,,,,3.0394847972973,
+367,Compound 367,,441921,皂苷类,,,947.2,Wistar大鼠,胸主动脉,,,,,,,0.77100000000000002
+368,Compound 368,,441934,皂苷类,,,933.1,Wistar大鼠,胸主动脉,,,,,,,1.1220000000000001
+369,Compound 369,,90657714,皂苷类,,,,SD大鼠,,,,,,,3505,
+370,Compound 370,,91973814,皂苷类,,,,SD大鼠,,,,,,,1.137,
+371,Compound 371,,91973814,皂苷类,,,,SD大鼠,肠系膜动脉,,内皮依赖性,,,4.5999999999999996,,
+372,Compound 372,,13943297,皂苷类,,C41H68O14,785,SD大鼠,胸主动脉,,,,,,69.62,
+373,Compound 373,,13943297,皂苷类,,C41H68O14,785,SD大鼠,胸主动脉,,内皮依赖性,,,,76,
+374,Compound 374,,92043183,皂苷类,,,769,,肠系膜动脉,,内皮依赖性,,,EC50=10.80±5.95μM，EC50（去内皮）=14.50±6.30μM,,
+375,Compound 375,,21599442,皂苷类,,,,,肠系膜动脉,,内皮依赖性,,,EC50=14.63±5.36μM，EC50（去内皮）=17.29±4.75μM,,
+376,Compound 376,,441887,皂苷类,,,432.636,SD大鼠,胸主动脉,,内皮依赖性,,,0.69348127600554799,,
+377,Compound 377,,11721847,皂苷类,,,751,SD大鼠,冠状动脉,,内皮依赖性,,,51.29,,
+378,Compound 378,,11721847,皂苷类,,,751,SD大鼠,,,内皮依赖性,,,33.880000000000003,,
+379,Compound 379,,11721847,皂苷类,,,751,SD大鼠,,,内皮依赖性,,,22.39,,
+380,Compound 380,,119245,皂苷类,,,869,SD大鼠,胸主动脉,,内皮依赖性,,,4953,,
+381,Compound 381,,24721031,皂苷类,,,,SD大鼠,胸主动脉,,内皮依赖性,,,8.6319999999999997,,
+382,Compound 382,,5280460,其他类,,,192.17,SD大鼠,,,,,1.51,,,
+383,Compound 383,,5018391,其他类,,,194.27,SD大鼠,,,,,33.67,,,
+384,Compound 384,,61361,其他类,,,190.24,SD大鼠,,,,,37.42,,,
+385,Compound 385,,3085257,其他类,,,192.25,SD大鼠,,,,,37.82,,,
+386,Compound 386,,5319022,其他类,,,190.24,SD大鼠,,,,,67.97,,,
+387,Compound 387,,64685,其他类,,C10H18O,154.25,SD大鼠,,,,,119.7,,,
+388,Compound 388,,5316704,其他类,,,224.25,SD大鼠,,,,,174.1,,,
+389,Compound 389,,5316848,其他类,,,380.5,SD大鼠,,,,,207.1,,,
+390,Compound 390,,71463676,其他类,,,516.451,SD大鼠,,,,,339.8,,,
+391,Compound 391,,1183,其他类,,,152.15,SD大鼠,,,,,455.3,,,
+392,Compound 392,,14296,其他类,,,136.19,SD大鼠,,,,,576.9,,,
+393,Compound 393,,5281780,其他类,,,514.6,SD大鼠,,,,,625.6,,,
+394,Compound 394,,86293425,其他类,,,216.32,SD大鼠,,,,,34.78,,,
+395,Compound 395,,165536,其他类,,C15H22O,218.33,SD大鼠,,,,,80.63,,,
+396,Compound 396,,168136,其他类,,,250.33,SD大鼠,,,,,254.59,,,
+397,Compound 397,,10466564,其他类,,,234.33,SD大鼠,,,,,312.25,,,
+398,Compound 398,,3037448,其他类,,,382.5,SD大鼠,肠系膜动脉,,,,,5.01,1.28,
+399,Compound 399,,5281408,其他类,,,384.5,SD大鼠,肠系膜动脉,,,,,6.91,,
+400,Compound 400,,5281408,其他类,,,384.5,,胸主动脉,,,,,,,31.103999999999999
+401,Compound 401,,6443046,其他类,,,366.45,,胸主动脉,,,,,,,0.74399999999999999
+402,Compound 402,,3037884,其他类,,,368.469,,胸主动脉,,,,,,,10.6
+403,Compound 403,,,其他类,,,,,胸主动脉,,,,,,,7.5659999999999998
+404,Compound 404,,,其他类,,,,,胸主动脉,,,,,,,34.268999999999998
+405,Compound 405,,,其他类,,,,,胸主动脉,,,,,,,37.154000000000003
+406,Compound 406,,,其他类,,,,,胸主动脉,,,,,,,10.477
+407,Compound 407,,76955,其他类,,,149.147,SD大鼠,冠状动脉,,,,,,,
+408,Compound 408,,289,其他类,,,110.11,SD大鼠,冠状动脉,,,,193.5,,,
+409,Compound 409,,2774040,其他类,,,,SD大鼠,冠状动脉,,,,47.84,,,
+410,Compound 410,,177065,其他类,,,161.16,SD大鼠,冠状动脉,,,,97.65,,,
+411,Compound 411,,169153,其他类,,,163.17,SD大鼠,冠状动脉,,,,169.3,,,
+412,Compound 412,,97250,其他类,,,161.16,SD大鼠,冠状动脉,,,,127.8,,,
+413,Compound 413,,321710,其他类,,,133.15,SD大鼠,冠状动脉,,,,526.5,,,
+414,Compound 414,,64796,其他类,,,,SD大鼠,冠状动脉,,,,794.7,,,
+415,Compound 415,,243,其他类,,C7H6O2,,SD大鼠,冠状动脉,,,,1410,,,
+416,Compound 416,,268239,其他类,,,163.17,SD大鼠,冠状动脉,,,,,,,
+417,Compound 417,,74079,其他类,,,189.17,SD大鼠,冠状动脉,,,,594.5,,,
+418,Compound 418,,6038,其他类,,,145.16,SD大鼠,冠状动脉,,,,258.10000000000002,,,
+419,Compound 419,,,,,,,,,,,,,,,
+420,Compound 420,,76955,,,,149.147,,肠系膜动脉,,,,,,,
+421,Compound 421,,289,酚类,,,110.11,,肠系膜动脉,,,,,,,
+422,Compound 422,,2774040,,,,161.16,,肠系膜动脉,,,,,,,
+423,Compound 423,,177065,,,,163.17,,肠系膜动脉,,,,,,,
+424,Compound 424,,169153,,,,161.16,,肠系膜动脉,,,,,,,
+425,Compound 425,,97250,,,,133.15,,肠系膜动脉,,,,,,,
+426,Compound 426,,321710,,,C7H6O2,,,肠系膜动脉,,,,,,,
+427,Compound 427,,64796,,,,163.17,,肠系膜动脉,,,,,,,
+428,Compound 428,,243,,,,189.17,,肠系膜动脉,,,,,,,
+429,Compound 429,,268239,,,,145.16,,肠系膜动脉,,,,,,,
+430,Compound 430,,74079,,,,392.6,,肠系膜动脉,,,,,,,
+431,Compound 431,,6038,,,,392.6,,肠系膜动脉,,,,,,,
+432,Compound 432,,10133,,,,392.6,,肠系膜动脉,,,,24.04,,,
+433,Compound 433,,31401,黄酮类,,,270.24,,肠系膜动脉,,,,21.73,,,
+434,Compound 434,,222528,黄酮类,,,446.361,,肠系膜动脉,,,,12.64,,,
+435,Compound 435,,5281605,黄酮类,,,460.388,,肠系膜动脉,,,,29.04,,,
+436,Compound 436,,64982,黄酮类,,,460.4,,肠系膜动脉,,,,26.52,,,
+437,Compound 437,,14655552,萜类,,,356.5,,肠系膜动脉,,,,31.37,,,
+438,Compound 438,,3084961,萜类,,,430.319,,肠系膜动脉,,,,41.82,,,
+439,Compound 439,,7061097,,,,499.704,,肠系膜动脉,,,,46.91,,,
+440,Compound 440,,101286191,,,,278.344,,肠系膜动脉,,,,49.22,,,
+441,Compound 441,,2733768,,,,346.373,,肠系膜动脉,,,,53.91,,,
+442,Compound 442,,3026,,,,254.238,,肠系膜动脉,,,,90.17,,,
+443,Compound 443,,21637711,,,,502.5,,肠系膜动脉,,,,>100,,,
+444,Compound 444,,10208,萜类,,,136.23,,肠系膜动脉,,,,>100,,,
+445,Compound 445,,5321283,其他类,,,516.4,,肠系膜动脉,,,,>100,,,
+446,Compound 446,,6654,其他类,,,354.31,,肠系膜动脉,,,,>100,,,
+449,Compound 449,,72,其他类,,,154.12,,,,,,,,,
+454,Compound 454,,9798666,其他类,,,168.15,,,,,,,,,
+449,Compound 449,,72,其他类,,,354.31,,,,,,,,,
+450,Compound 450,,8468,其他类,,,224.25,,,,,,,,,
+451,Compound 451,,5280633,其他类,,,118.09,,,,,,,,,
+454,Compound 454,,11521428,其他类,,,,,,,,,,,,
+453,Compound 453,,1110,,,,,,,,,,,,,
+454,Compound 454,,,,,,,,,,,,,,,
